@@ -1,0 +1,6 @@
+if you have sass setup then just go to the dir and type this 
+sass --watch scss:css
+
+otherwissseeee
+https://medium.com/@ricardozea/sass-for-beginners-the-friendliest-guide-about-how-to-install-use-sass-on-windows-22ff4a32c1f7
+
