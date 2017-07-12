@@ -1,0 +1,29 @@
+/*Fonts - lato light and bold*/
+
+@font-face {
+  font-family: Lato Light;
+  src: url("LATO-LIGHT.TTF");
+}
+
+@font-face {
+  font-family: Lato Semibold;
+  src: url("LATO-BOLD.TTF");
+}
+
+/*typo for p and list items*/
+
+p{
+  font-family: "Lato Light";
+  font-size: 16pt;
+  letter-spacing: 0.01em;
+  line-height: 28pt;
+}
+
+li{
+  font-family: "Lato Semibold";
+  font-size: 16pt;
+  letter-spacing: 0.016em;
+  line-height: 28pt;
+}
+
+
