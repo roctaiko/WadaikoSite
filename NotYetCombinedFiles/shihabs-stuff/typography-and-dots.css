@@ -26,4 +26,16 @@ li{
   line-height: 28pt;
 }
 
+/*The dots*/
+.small-graphic-dot:before {
+  content: ' \25CF';
+  font-size: 24px;
+  color: orange;
+}
 
+
+.big-graphic-dot:before{
+  content: ' \25CF';
+  font-size: 68px;
+  color: #F1F1F1;
+}
