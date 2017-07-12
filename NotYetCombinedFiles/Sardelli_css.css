@@ -1,0 +1,33 @@
+@font-face {
+	font-family: Bebas Neue;
+	src: url("BebasNeue Regular.ttf");
+}
+
+a {
+    color: orange;
+    font-family: "Bebas Neue";
+    font-size: 28pt;
+	letter-spacing: 0.05em;
+}
+
+h3 {
+    font-family: "Bebas Neue";
+    font-size: 40pt;
+	letter-spacing: 0.042em;
+}
+
+h4 {
+    font-family: "Bebas Neue";
+    font-size: 28pt;
+	letter-spacing: 0.05em;
+}
+
+.team_img {
+    height: 328px;
+    width: 100%;
+}
+
+.member_img {
+    height: 216px;
+    width: 200px;
+}
