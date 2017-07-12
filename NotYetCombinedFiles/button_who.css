@@ -1,0 +1,32 @@
+/* Fonts */
+
+@font-face {
+	font-family: Edo SZ;
+	src: url("edosz.ttf");
+}
+
+@font-face {
+	font-family: Bebas Neue;
+	src: url("BebasNeue Regular.ttf");
+}
+
+/* Button */
+
+button {
+	border-radius: 2px;
+	font-family: "Bebas Neue";
+	font-size: 28pt;
+	letter-spacing: 0.05em;
+}
+
+/* Who We Are */
+
+.quote {
+	font-family: "Edo SZ", sans-serif;
+	font-size: 44pt;
+}
+
+.map {
+	max-width: 100%;
+	height: 348px;
+}
