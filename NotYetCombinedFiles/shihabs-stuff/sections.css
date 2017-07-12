@@ -1,0 +1,33 @@
+/*The header and what-is-taiko*/
+.header, .what-is-taiko{
+    min-height: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #eee;
+    border-top: 4px solid black;
+}
+
+/*Fixing up the sections*/
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    padding: 0
+    -webkit-font-smoothing: antialiased;
+    font-family: chaparral-pro, sans-serif !important;
+    height: 100% !important;
+}
