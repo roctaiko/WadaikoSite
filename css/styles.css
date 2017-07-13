@@ -1,3 +1,4 @@
+/*The outer files will be imported to keep things clean*/
 /* Fonts */
 @font-face {
   font-family: Edo SZ;
@@ -76,7 +77,6 @@ h6 {
   font: 800 16pt "Lato", sans-serif;
   margin: 0; }
 
-
 /*Common Elements*/
 html {
   width: 100%;
@@ -123,7 +123,9 @@ button {
     .slider_control .control:hover {
       cursor: pointer; }
   .slider_control .prev, .slider_control .next {
-    width: 56px; }
+    width: 40px; }
+  .slider_control .next {
+    transform: rotate(180deg); }
   .slider_control .page {
     width: 12px;
     height: 12px;
@@ -132,6 +134,8 @@ button {
     background-color: #111111; }
     .slider_control .page.selected {
       background-color: #e57025; }
+  .slider_control.white .page {
+    background-color: #FFFFFF; }
 
 nav {
   display: inline-block; }
@@ -154,7 +158,6 @@ nav {
     fill: #FFFFFF; }
   nav .black {
     fill: #111111; }
-
 
 /* Unique Elements */
 

@@ -55,9 +55,11 @@ button {
 		}
 	}
 	.prev, .next{
-		width: 56px;
+		width: 40px;
 	}
-
+	.next{
+		transform: rotate(180deg);
+	}
 	.page{
 		width: 12px;
 		height: 12px;
@@ -68,5 +70,9 @@ button {
 		&.selected{
 			background-color: $color-orange;
 		}
+	}
+
+	&.white .page{
+		background-color: $color-white;
 	}
 }
