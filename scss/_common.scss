@@ -18,34 +18,34 @@ div {
 
 a {
     color: $color-orange;
-    font-family: $Font-heading;
+    font-family: $font-heading;
     font-size: 28pt;
 	letter-spacing: 0.05em;
 }
 
 button {
 	border-radius: 2px;
-	font-family: $Font-heading;
+	font-family: $font-heading;
 	font-size: 28pt;
 	letter-spacing: 0.05em;
 }
 
 /*The dots*/
-.small-graphic-dot:before {
+.small-graphic-dot span:before {
   content: ' \25CF';
   font-size: 24px;
   color: $color-orange;
 }
 
 
-.big-graphic-dot:before{
+.big-graphic-dot span:before{
   content: ' \25CF';
   font-size: 68px;
   color: #F1F1F1;
 }
 
 /*Slider Control*/
-.slider_control{
+.slider_controls{
 	display: inline-block;
 	text-align: center;
 	.control{

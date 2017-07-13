@@ -1,7 +1,7 @@
 /* Typography */
 
 p{
-  font-family: "Lato Light";
+  font-family: $font-body;
   font-size: 16pt;
   letter-spacing: 0.01em;
   line-height: 28pt;
@@ -16,7 +16,7 @@ li{
 
 /* H1 Style */
 h1 {
-	font-family: $Font-heading2;
+	font-family: $font-heading2;
 	font-size: 44px;
 	line-height: 48px;
 	letter-spacing: 0.06em;
@@ -40,33 +40,39 @@ h1 {
 	}
 }
 
-h2 {
-	font-family: $Font-heading;
-	font-size: 48pt;
-	letter-spacing: 0.044em;
+.h2_heading {
+	h2{
+		font-family: $font-heading;
+		font-size: 48pt;
+		letter-spacing: 0.044em;
 
-	margin-bottom: 5px;
+		margin-bottom: 5px;
+	}
+
+	circle{
+		fill: $color-orange;
+	}
 }
 
 h3 {
-    font-family: $Font-heading;
+    font-family: $font-heading;
     font-size: 40pt;
 	letter-spacing: 0.042em;
 }
 
 h4 {
-    font-family: $Font-heading;
+    font-family: $font-heading;
     font-size: 28pt;
 	letter-spacing: 0.05em;
 }
 
 h5{
-	font: 700 20pt $Font-body;
+	font: 700 20pt $font-body;
 	color: $color-black;
 	margin: 0;
 }
 
 h6{
-	font: 800 16pt $Font-body;
+	font: 800 16pt $font-body;
 	margin: 0;
 }

@@ -18,10 +18,11 @@
 @font-face {
   font-family: Lato Black;
   src: url("../fonts/Lato-Black.TTF"); }
-
+/*Font variables*/
+/*Basic colors*/
 /* Typography */
 p {
-  font-family: "Lato Light";
+  font-family: "Lato Light", sans-serif;
   font-size: 16pt;
   letter-spacing: 0.01em;
   line-height: 28pt; }
@@ -52,11 +53,13 @@ h1 {
     .h1_circle.small h1 {
       font-size: 36px; }
 
-h2 {
+.h2_heading h2 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 48pt;
   letter-spacing: 0.044em;
   margin-bottom: 5px; }
+.h2_heading circle {
+  fill: #e57025; }
 
 h3 {
   font-family: "Bebas Neue", sans-serif;
@@ -69,12 +72,12 @@ h4 {
   letter-spacing: 0.05em; }
 
 h5 {
-  font: 700 20pt "Lato", sans-serif;
+  font: 700 20pt "Lato Light", sans-serif;
   color: #111111;
   margin: 0; }
 
 h6 {
-  font: 800 16pt "Lato", sans-serif;
+  font: 800 16pt "Lato Light", sans-serif;
   margin: 0; }
 
 /*Common Elements*/
@@ -104,37 +107,37 @@ button {
   letter-spacing: 0.05em; }
 
 /*The dots*/
-.small-graphic-dot:before {
+.small-graphic-dot span:before {
   content: ' \25CF';
   font-size: 24px;
   color: #e57025; }
 
-.big-graphic-dot:before {
+.big-graphic-dot span:before {
   content: ' \25CF';
   font-size: 68px;
   color: #F1F1F1; }
 
 /*Slider Control*/
-.slider_control {
+.slider_controls {
   display: inline-block;
   text-align: center; }
-  .slider_control .control {
+  .slider_controls .control {
     display: inline-block; }
-    .slider_control .control:hover {
+    .slider_controls .control:hover {
       cursor: pointer; }
-  .slider_control .prev, .slider_control .next {
+  .slider_controls .prev, .slider_controls .next {
     width: 40px; }
-  .slider_control .next {
+  .slider_controls .next {
     transform: rotate(180deg); }
-  .slider_control .page {
+  .slider_controls .page {
     width: 12px;
     height: 12px;
     margin: 8px 0px;
     border-radius: 6px;
     background-color: #111111; }
-    .slider_control .page.selected {
+    .slider_controls .page.selected {
       background-color: #e57025; }
-  .slider_control.white .page {
+  .slider_controls.white .page {
     background-color: #FFFFFF; }
 
 nav {
@@ -160,7 +163,6 @@ nav {
     fill: #111111; }
 
 /* Unique Elements */
-
 /* Header */
 .header, .what-is-taiko {
   min-height: 100%;
