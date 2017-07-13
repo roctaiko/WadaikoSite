@@ -1,0 +1,44 @@
+/* Unique Elements */
+
+/* Header */
+.header, .what-is-taiko{
+    min-height: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #eee;
+    border-top: 4px solid black;
+}
+
+#wadaiko{
+  font-family: $Font-heading2;
+  font-size: 76pt;
+}
+
+/* Who We Are */
+.quote {
+	font-family: $Font-heading;
+	font-size: 44pt;
+}
+
+.map {
+	max-width: 100%;
+	height: 348px;
+}
+
+/* People */
+.team_img {
+    height: 328px;
+    width: 100%;
+}
+
+.member_img {
+    height: 216px;
+    width: 200px;
+}
+
+/* Merchandise */
+.merch_img{
+  height: 248px;
+  width: 248px;
+}

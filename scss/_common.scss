@@ -1,0 +1,72 @@
+/*Common Elements*/
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+div {
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    color: $color-orange;
+    font-family: $Font-heading;
+    font-size: 28pt;
+	letter-spacing: 0.05em;
+}
+
+button {
+	border-radius: 2px;
+	font-family: $Font-heading;
+	font-size: 28pt;
+	letter-spacing: 0.05em;
+}
+
+/*The dots*/
+.small-graphic-dot:before {
+  content: ' \25CF';
+  font-size: 24px;
+  color: $color-orange;
+}
+
+
+.big-graphic-dot:before{
+  content: ' \25CF';
+  font-size: 68px;
+  color: #F1F1F1;
+}
+
+/*Slider Control*/
+.slider_control{
+	display: inline-block;
+	text-align: center;
+	.control{
+		display: inline-block;
+		&:hover{
+			cursor: pointer;
+		}
+	}
+	.prev, .next{
+		width: 56px;
+	}
+
+	.page{
+		width: 12px;
+		height: 12px;
+		margin: 8px 0px;
+		border-radius: 6px;
+		background-color: $color-black;
+
+		&.selected{
+			background-color: $color-orange;
+		}
+	}
+}

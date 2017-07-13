@@ -1,0 +1,55 @@
+/*Font stuff*/
+/*Basic colors*/
+body {
+  background-color: #AAA; }
+
+nav {
+  display: inline-block; }
+  nav a {
+    color: #FFFFFF;
+    font: 700 20pt/36pt "Bebas Neue", sans-serif;
+    letter-spacing: 0.05em;
+    text-decoration: none; }
+  nav .selected {
+    font-size: 26pt;
+    padding-left: 10px;
+    border-left: solid 4px #e57025; }
+  nav .logo {
+    width: 128px; }
+    nav .logo.min {
+      width: 80px; }
+  nav .orange {
+    fill: #e57025; }
+  nav .white {
+    fill: #FFFFFF; }
+  nav .black {
+    fill: #111111; }
+
+h5 {
+  font: 700 20pt "Lato", sans-serif;
+  color: #111111;
+  margin: 0; }
+
+h6 {
+  font: 800 16pt "Lato", sans-serif;
+  margin: 0; }
+
+.slider-control {
+  display: inline-block;
+  text-align: center; }
+  .slider-control .control {
+    display: inline-block; }
+    .slider-control .control:hover {
+      cursor: pointer; }
+  .slider-control .prev, .slider-control .next {
+    width: 56px; }
+  .slider-control .page {
+    width: 12px;
+    height: 12px;
+    margin: 8px 0px;
+    border-radius: 6px;
+    background-color: #111111; }
+    .slider-control .page.selected {
+      background-color: #e57025; }
+
+/*# sourceMappingURL=testStyles.css.map */

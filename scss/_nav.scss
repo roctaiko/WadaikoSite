@@ -1,0 +1,30 @@
+nav{
+	display: inline-block;
+	a{
+		color: $color-white;
+		font: 700 20pt/36pt $Font-heading;
+		letter-spacing: 0.05em;
+		text-decoration: none;
+	}
+	& .selected{
+		font-size: 26pt;
+		padding-left: 10px;
+		border-left: solid 4px $color-orange;
+	}
+
+	.logo{
+		width: 128px;
+		&.min{
+			width: 80px;
+		}
+	}
+	.orange{
+		fill: $color-orange;
+	}
+	.white{
+		fill: $color-white;
+	}
+	.black{
+		fill: $color-black;
+	}
+}

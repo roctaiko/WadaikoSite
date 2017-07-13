@@ -1,8 +1,197 @@
-/*The outer files will be imported to keep things clean*/
-p {
-  font-size: 20px; }
+/* Fonts */
+@font-face {
+  font-family: Edo SZ;
+  src: url("../fonts/EdoSZ.ttf"); }
+@font-face {
+  font-family: Bebas Neue;
+  src: url("../fonts/BebasNeue.ttf"); }
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Regular.TTF"); }
+@font-face {
+  font-family: Lato Light;
+  src: url("../fonts/Lato-Light.TTF"); }
+@font-face {
+  font-family: Lato Bold;
+  src: url("../fonts/Lato-Bold.TTF"); }
+@font-face {
+  font-family: Lato Black;
+  src: url("../fonts/Lato-Black.TTF"); }
 
-/*Font stuff*/
-/*Basic colors*/
+/* Typography */
+p {
+  font-family: "Lato Light";
+  font-size: 16pt;
+  letter-spacing: 0.01em;
+  line-height: 28pt; }
+
+li {
+  font-family: "Lato Semibold";
+  font-size: 16pt;
+  letter-spacing: 0.016em;
+  line-height: 28pt; }
+
+/* H1 Style */
+h1 {
+  font-family: "Edo Sz", sans-serif;
+  font-size: 44px;
+  line-height: 48px;
+  letter-spacing: 0.06em;
+  margin-top: 40%;
+  margin-left: 6%; }
+
+.h1_circle {
+  border: 18px solid black;
+  border-radius: 100%;
+  width: 310px;
+  height: 310px; }
+  .h1_circle.small {
+    width: 256px;
+    height: 256px; }
+    .h1_circle.small h1 {
+      font-size: 36px; }
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48pt;
+  letter-spacing: 0.044em;
+  margin-bottom: 5px; }
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40pt;
+  letter-spacing: 0.042em; }
+
+h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28pt;
+  letter-spacing: 0.05em; }
+
+h5 {
+  font: 700 20pt "Lato", sans-serif;
+  color: #111111;
+  margin: 0; }
+
+h6 {
+  font: 800 16pt "Lato", sans-serif;
+  margin: 0; }
+
+
+/*Common Elements*/
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased; }
+
+div {
+  display: block;
+  margin: 0 auto; }
+
+a {
+  color: #e57025;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28pt;
+  letter-spacing: 0.05em; }
+
+button {
+  border-radius: 2px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28pt;
+  letter-spacing: 0.05em; }
+
+/*The dots*/
+.small-graphic-dot:before {
+  content: ' \25CF';
+  font-size: 24px;
+  color: #e57025; }
+
+.big-graphic-dot:before {
+  content: ' \25CF';
+  font-size: 68px;
+  color: #F1F1F1; }
+
+/*Slider Control*/
+.slider_control {
+  display: inline-block;
+  text-align: center; }
+  .slider_control .control {
+    display: inline-block; }
+    .slider_control .control:hover {
+      cursor: pointer; }
+  .slider_control .prev, .slider_control .next {
+    width: 56px; }
+  .slider_control .page {
+    width: 12px;
+    height: 12px;
+    margin: 8px 0px;
+    border-radius: 6px;
+    background-color: #111111; }
+    .slider_control .page.selected {
+      background-color: #e57025; }
+
+nav {
+  display: inline-block; }
+  nav a {
+    color: #FFFFFF;
+    font: 700 20pt/36pt "Bebas Neue", sans-serif;
+    letter-spacing: 0.05em;
+    text-decoration: none; }
+  nav .selected {
+    font-size: 26pt;
+    padding-left: 10px;
+    border-left: solid 4px #e57025; }
+  nav .logo {
+    width: 128px; }
+    nav .logo.min {
+      width: 80px; }
+  nav .orange {
+    fill: #e57025; }
+  nav .white {
+    fill: #FFFFFF; }
+  nav .black {
+    fill: #111111; }
+
+
+/* Unique Elements */
+
+/* Header */
+.header, .what-is-taiko {
+  min-height: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+  background: #eee;
+  border-top: 4px solid black; }
+
+#wadaiko {
+  font-family: "Edo Sz", sans-serif;
+  font-size: 76pt; }
+
+/* Who We Are */
+.quote {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 44pt; }
+
+.map {
+  max-width: 100%;
+  height: 348px; }
+
+/* People */
+.team_img {
+  height: 328px;
+  width: 100%; }
+
+.member_img {
+  height: 216px;
+  width: 200px; }
+
+/* Merchandise */
+.merch_img {
+  height: 248px;
+  width: 248px; }
 
 /*# sourceMappingURL=styles.css.map */
