@@ -1,4 +1,9 @@
 /*The header and what-is-taiko*/
+@font-face {
+  font-family: Edo SZ;
+  src: url("edosz.ttf");
+}
+
 .header, .what-is-taiko{
     min-height: 100%;
     padding-top: 50px;
@@ -6,6 +11,16 @@
     text-align: center;
     background: #eee;
     border-top: 4px solid black;
+}
+
+#wadaiko{
+  font-family: "Edo SZ";
+  font-size: 76pt;
+}
+
+.merch-picture{
+  height: 248px;
+  width: 248px;
 }
 
 /*Fixing up the sections*/
