@@ -31,7 +31,8 @@ li {
   font-family: "Lato Semibold";
   font-size: 16pt;
   letter-spacing: 0.016em;
-  line-height: 28pt; }
+  line-height: 28pt;
+  list-style-type: none; }
 
 /* H1 Style */
 h1 {
@@ -178,7 +179,7 @@ nav {
 
 /* Who We Are */
 .quote {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Edo Sz", sans-serif;
   font-size: 44pt; }
 
 .map {
