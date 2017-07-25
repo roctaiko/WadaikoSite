@@ -11,6 +11,10 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+section{
+	padding-left: 24.21vw;
+}
+
 div {
     display: block;
     margin: 0 auto;
@@ -75,4 +79,21 @@ button {
 	&.white .page{
 		background-color: $color-white;
 	}
+}
+
+
+/* Color themes */
+.dark-theme{
+	background-color: $color-black;
+	color: $color-white;
+
+	h1{
+		background-color: initial;
+		color: initial;
+	}
+}
+
+.light-theme{
+	background-color: $color-white;
+	color: $color-black;
 }

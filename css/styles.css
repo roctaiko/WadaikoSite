@@ -23,15 +23,18 @@
 /* Typography */
 p {
   font-family: "Lato Light", sans-serif;
-  font-size: 16pt;
+  font-size: 16px;
   letter-spacing: 0.01em;
-  line-height: 28pt; }
+  line-height: 28px; }
+
+ul {
+  padding: 0; }
 
 li {
   font-family: "Lato Semibold";
-  font-size: 16pt;
+  font-size: 16px;
   letter-spacing: 0.016em;
-  line-height: 28pt;
+  line-height: 28px;
   list-style-type: none; }
 
 /* H1 Style */
@@ -44,10 +47,12 @@ h1 {
   margin-left: 6%; }
 
 .h1_circle {
-  border: 18px solid black;
+  border: 18px solid #111111;
   border-radius: 100%;
+  background-color: #FFFFFF;
   width: 310px;
-  height: 310px; }
+  height: 310px;
+  margin: 0; }
   .h1_circle.small {
     width: 256px;
     height: 256px; }
@@ -56,29 +61,31 @@ h1 {
 
 .h2_heading h2 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 48pt;
-  letter-spacing: 0.044em;
-  margin-bottom: 5px; }
-.h2_heading circle {
-  fill: #e57025; }
+  font-size: 48px;
+  letter-spacing: 0.08em;
+  margin-bottom: 3px; }
+.h2_heading span:before {
+  content: ' \25CF';
+  font-size: 18px;
+  color: #e57025; }
 
 h3 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 40pt;
+  font-size: 40px;
   letter-spacing: 0.042em; }
 
 h4 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 28pt;
+  font-size: 28px;
   letter-spacing: 0.05em; }
 
 h5 {
-  font: 700 20pt "Lato Light", sans-serif;
+  font: 700 20px "Lato Light", sans-serif;
   color: #111111;
   margin: 0; }
 
 h6 {
-  font: 800 16pt "Lato Light", sans-serif;
+  font: 800 16px "Lato Light", sans-serif;
   margin: 0; }
 
 /*Common Elements*/
@@ -90,6 +97,9 @@ body {
   width: 100%;
   height: 100%;
   -webkit-font-smoothing: antialiased; }
+
+section {
+  padding-left: 24.21vw; }
 
 div {
   display: block;
@@ -141,6 +151,18 @@ button {
   .slider_controls.white .page {
     background-color: #FFFFFF; }
 
+/* Color themes */
+.dark-theme {
+  background-color: #111111;
+  color: #FFFFFF; }
+  .dark-theme h1 {
+    background-color: initial;
+    color: initial; }
+
+.light-theme {
+  background-color: #FFFFFF;
+  color: #111111; }
+
 nav {
   display: inline-block; }
   nav a {
@@ -156,11 +178,14 @@ nav {
     width: 128px; }
     nav .logo.min {
       width: 80px; }
-  nav .orange {
+
+.logo {
+  width: 128px; }
+  .logo .orange {
     fill: #e57025; }
-  nav .white {
+  .logo .white {
     fill: #FFFFFF; }
-  nav .black {
+  .logo .black {
     fill: #111111; }
 
 /* Unique Elements */
@@ -175,12 +200,12 @@ nav {
 
 #wadaiko {
   font-family: "Edo Sz", sans-serif;
-  font-size: 76pt; }
+  font-size: 76px; }
 
 /* Who We Are */
 .quote {
   font-family: "Edo Sz", sans-serif;
-  font-size: 44pt; }
+  font-size: 44px; }
 
 .map {
   max-width: 100%;

@@ -2,16 +2,20 @@
 
 p{
   font-family: $font-body;
-  font-size: 16pt;
+  font-size: 16px;
   letter-spacing: 0.01em;
-  line-height: 28pt;
+  line-height: 28px;
+}
+
+ul{
+	padding: 0;
 }
 
 li{
   font-family: "Lato Semibold";
-  font-size: 16pt;
+  font-size: 16px;
   letter-spacing: 0.016em;
-  line-height: 28pt;
+  line-height: 28px;
   list-style-type: none;
 }
 
@@ -26,11 +30,14 @@ h1 {
 	margin-left: 6%;
 }
 .h1_circle {
-	border: 18px solid black;
-	border-radius: 100%;	
+	border: 18px solid $color-black;
+	border-radius: 100%;
+	background-color: $color-white;
 
 	width: 310px;
 	height: 310px;
+
+	margin: 0;
 
 	&.small {
 		width: 256px;
@@ -44,36 +51,38 @@ h1 {
 .h2_heading {
 	h2{
 		font-family: $font-heading;
-		font-size: 48pt;
-		letter-spacing: 0.044em;
+		font-size: 48px;
+		letter-spacing: 0.08em;
 
-		margin-bottom: 5px;
+		margin-bottom: 3px;
 	}
 
-	circle{
-		fill: $color-orange;
+	span:before{
+		content: ' \25CF';
+		font-size: 18px;
+		color: $color-orange;
 	}
 }
 
 h3 {
     font-family: $font-heading;
-    font-size: 40pt;
+    font-size: 40px;
 	letter-spacing: 0.042em;
 }
 
 h4 {
     font-family: $font-heading;
-    font-size: 28pt;
+    font-size: 28px;
 	letter-spacing: 0.05em;
 }
 
 h5{
-	font: 700 20pt $font-body;
+	font: 700 20px $font-body;
 	color: $color-black;
 	margin: 0;
 }
 
 h6{
-	font: 800 16pt $font-body;
+	font: 800 16px $font-body;
 	margin: 0;
 }
