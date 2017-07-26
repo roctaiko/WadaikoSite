@@ -66,16 +66,15 @@ button {
 	.next{
 		transform: rotate(180deg);
 	}
+	.selected{
+			background-color: $color-orange;
+	}
 	.page{
 		width: 12px;
 		height: 12px;
 		margin: 8px 0px;
 		border-radius: 6px;
 		background-color: $color-black;
-
-		&.selected{
-			background-color: $color-orange;
-		}
 	}
 
 	&.white .page{
