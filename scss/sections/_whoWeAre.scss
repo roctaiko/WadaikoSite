@@ -1,0 +1,36 @@
+#who-we-are_box{
+	box-sizing: border-box;
+	padding: 3vw 8.51vw;
+}
+
+.map_practice-info{
+	display: inline-block;
+
+	.practice-time{
+		font-family: 'Lato Black';
+	}
+	.practice-location{
+		font-family: 'Lato';
+	}
+}
+
+.key-color{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+
+	vertical-align: top;
+	margin-right: 15px;
+
+	background-color: #CCC;
+}
+
+.map_location{
+	display: inline-block;
+
+	p{
+		font-family: 'Lato Black';
+		display: inline-block;
+	}
+}

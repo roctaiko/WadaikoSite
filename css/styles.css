@@ -1,4 +1,5 @@
 /*The outer files will be imported to keep things clean*/
+/* Elements */
 /* Fonts */
 @font-face {
   font-family: Edo SZ;
@@ -25,7 +26,8 @@ p {
   font-family: "Lato Light", sans-serif;
   font-size: 16px;
   letter-spacing: 0.01em;
-  line-height: 28px; }
+  line-height: 28px;
+  margin: 0; }
 
 ul {
   padding: 0; }
@@ -224,5 +226,32 @@ nav {
 .merch_img {
   height: 248px;
   width: 248px; }
+
+/* Positioning */
+#who-we-are_box {
+  box-sizing: border-box;
+  padding: 3vw 8.51vw; }
+
+.map_practice-info {
+  display: inline-block; }
+  .map_practice-info .practice-time {
+    font-family: 'Lato Black'; }
+  .map_practice-info .practice-location {
+    font-family: 'Lato'; }
+
+.key-color {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-right: 15px;
+  background-color: #CCC; }
+
+.map_location {
+  display: inline-block; }
+  .map_location p {
+    font-family: 'Lato Black';
+    display: inline-block; }
 
 /*# sourceMappingURL=styles.css.map */

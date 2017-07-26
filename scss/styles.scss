@@ -1,6 +1,12 @@
 /*The outer files will be imported to keep things clean*/
+
+/* Elements */
 @import "variables";
 @import "typography";
 @import "common";
 @import "nav";
 @import "unique";
+
+
+/* Positioning */
+@import "sections/whoWeAre";
