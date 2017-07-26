@@ -22,12 +22,14 @@
 /*Font variables*/
 /*Basic colors*/
 /* Typography */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
 p {
   font-family: "Lato Light", sans-serif;
   font-size: 16px;
   letter-spacing: 0.01em;
-  line-height: 28px;
-  margin: 0; }
+  line-height: 28px; }
 
 ul {
   padding: 0; }
@@ -53,8 +55,7 @@ h1 {
   border-radius: 100%;
   background-color: #FFFFFF;
   width: 310px;
-  height: 310px;
-  margin: 0; }
+  height: 310px; }
   .h1_circle.small {
     width: 256px;
     height: 256px; }
@@ -98,7 +99,8 @@ html {
 body {
   width: 100%;
   height: 100%;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  margin: 0; }
 
 section {
   padding-left: 24.21vw; }
