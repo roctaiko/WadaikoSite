@@ -1,12 +1,17 @@
 .what-is-taiko{
+  background-color: white;
+
   img{
     float: right;
     position: absolute;
+    right: 100px;
     bottom: 0px;
   }
   .drum1{
     max-width: 25%;
     height: auto;
+    right: 460px;
+    top: 375px;
   }
 
   .drum2{
@@ -16,20 +21,35 @@
 
   /*The entire box*/
   .taiko-text{
+    position: absolute;
+    float: left;
+    text-align: left;
+    width: 30%;
 
     /*The title and dots*/
     .what-is-taiko-title{
+      float: left;
     }
 
-    /*The explanation paragraph*/
-    .taiko-explanation{
-    }
+    /*Box with the text inside*/
+    .text{
+      padding-top: 25px;
+      width: auto;
+      float: left;
 
-    /*Text to touch drum*/
-    .drum-text{
-      font-weight: bold;
-    }
+       /*The explanation paragraph*/
+      .taiko-explanation{
+        width: 80%;
+        float: left;
+      }
 
+      /*Text to touch drum*/
+      .drum-text{
+        width: 44%;
+        padding-top:58px;
+        float: left;
+        font-weight: bold;
+      }
+    }
   }
-
 }

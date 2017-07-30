@@ -107,7 +107,7 @@ section {
 
 div {
   display: block;
-  margin: 0; }
+  margin: 0 auto; }
 
 a {
   color: #e57025;
@@ -167,6 +167,7 @@ button {
   background-color: #FFFFFF;
   color: #111111; }
 
+/* Viewport Conversion Function */
 nav {
   display: inline-block; }
   nav a {
@@ -257,23 +258,44 @@ nav {
     display: inline-block; }
 
 .what-is-taiko {
+  background-color: white;
   /*The entire box*/ }
   .what-is-taiko img {
     float: right;
     position: absolute;
+    right: 100px;
     bottom: 0px; }
   .what-is-taiko .drum1 {
     max-width: 25%;
-    height: auto; }
+    height: auto;
+    right: 460px;
+    top: 375px; }
   .what-is-taiko .drum2 {
     max-width: 38%;
     height: auto; }
   .what-is-taiko .taiko-text {
+    position: absolute;
+    float: left;
+    text-align: left;
+    width: 30%;
     /*The title and dots*/
-    /*The explanation paragraph*/
-    /*Text to touch drum*/ }
-    .what-is-taiko .taiko-text .drum-text {
-      font-weight: bold; }
+    /*Box with the text inside*/ }
+    .what-is-taiko .taiko-text .what-is-taiko-title {
+      float: left; }
+    .what-is-taiko .taiko-text .text {
+      padding-top: 25px;
+      width: auto;
+      float: left;
+      /*The explanation paragraph*/
+      /*Text to touch drum*/ }
+      .what-is-taiko .taiko-text .text .taiko-explanation {
+        width: 80%;
+        float: left; }
+      .what-is-taiko .taiko-text .text .drum-text {
+        width: 44%;
+        padding-top: 58px;
+        float: left;
+        font-weight: bold; }
 
 #header-background {
   background-image: url("../images/placeholders/ready.JPG");
