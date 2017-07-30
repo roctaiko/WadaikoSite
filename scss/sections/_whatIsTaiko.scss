@@ -1,0 +1,35 @@
+.what-is-taiko{
+  img{
+    float: right;
+    position: absolute;
+    bottom: 0px;
+  }
+  .drum1{
+    max-width: 25%;
+    height: auto;
+  }
+
+  .drum2{
+    max-width: 38%;
+    height: auto;
+  }
+
+  /*The entire box*/
+  .taiko-text{
+
+    /*The title and dots*/
+    .what-is-taiko-title{
+    }
+
+    /*The explanation paragraph*/
+    .taiko-explanation{
+    }
+
+    /*Text to touch drum*/
+    .drum-text{
+      font-weight: bold;
+    }
+
+  }
+
+}

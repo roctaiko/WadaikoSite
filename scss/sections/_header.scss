@@ -1,0 +1,47 @@
+#header-background{
+  background-image: url("../images/placeholders/ready.JPG");
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
+
+.header-title{
+  /*Positions the main box*/
+  position: static;
+  padding-top: 220px;
+  padding-left: 410px;
+  padding-right: 80px;
+
+  h1,h3, .header-button{
+    color: white;
+  }
+
+  /*Positions the title*/
+  h1{
+    padding-left: 30px;
+  }
+
+  /*Positions the sub title*/
+  h3{
+    padding-top: 35px;
+    padding-right: 80px;
+  }
+
+  /*Positions the button*/
+  .header-button{
+    float: right;
+    margin-top: 20px;
+    margin-right: 128px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 20px;
+    border-style: solid;
+
+    span{
+      margin: 0 11px 0 11px;
+    }
+  }
+}
