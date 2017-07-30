@@ -98,3 +98,10 @@ button {
 	background-color: $color-white;
 	color: $color-black;
 }
+
+
+/* Viewport Conversion Function */
+@function get-vw($target) { 
+  $vw-context: (1000*.01) * 1px;
+  @return ($target/$vw-context) * 1vw;
+}
