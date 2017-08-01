@@ -33,6 +33,10 @@ p {
 
 ul {
   padding: 0; }
+  ul h3 {
+    margin-bottom: 44px; }
+  ul li {
+    margin-bottom: 24px; }
 
 li {
   font-family: "Lato Semibold";
@@ -62,20 +66,23 @@ h1 {
     .h1_circle.small h1 {
       font-size: 36px; }
 
-.h2_heading h2 {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 48px;
-  letter-spacing: 0.08em;
-  margin-bottom: 3px; }
-.h2_heading span:before {
-  content: ' \25CF';
-  font-size: 18px;
-  color: #e57025; }
+.h2_heading {
+  margin-bottom: 40px; }
+  .h2_heading h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.08em;
+    margin-bottom: 3px; }
+  .h2_heading span:before {
+    content: ' \25CF';
+    font-size: 18px;
+    color: #e57025; }
 
 h3 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 40px;
-  letter-spacing: 0.042em; }
+  letter-spacing: 0.042em;
+  line-height: 48px; }
 
 h4 {
   font-family: "Bebas Neue", sans-serif;
@@ -107,7 +114,7 @@ section {
 
 div {
   display: block;
-  margin: 0 auto; }
+  margin: 0; }
 
 a {
   color: #e57025;
@@ -124,7 +131,7 @@ button {
 /*The dots*/
 .small-graphic-dot span:before {
   content: ' \25CF';
-  font-size: 24px;
+  font-size: 48px;
   color: #e57025; }
 
 .big-graphic-dot span:before {
@@ -231,9 +238,59 @@ nav {
   width: 248px; }
 
 /* Positioning */
-#who-we-are_box {
+.who-we-are {
+  padding-right: 100px;
+  overflow-x: hidden; }
+
+.who-we-are_box {
+  position: relative;
   box-sizing: border-box;
-  padding: 3vw 8.51vw; }
+  width: 680px;
+  padding: 4.7vw 8.51vw;
+  margin: 0 0 120px 21.42vw; }
+  .who-we-are_box p {
+    margin-bottom: 40px; }
+  .who-we-are_box ul {
+    margin: 128px 0 0 9.1vw;
+    max-width: 212px; }
+  .who-we-are_box img {
+    position: absolute;
+    top: 276px;
+    left: -21.42vw; }
+  .who-we-are_box .small-graphic-dot {
+    position: absolute;
+    top: 396px;
+    right: -56px; }
+
+.who_logo {
+  width: 348px;
+  float: right;
+  margin: 0 64px 0 100px; }
+
+.quote {
+  display: inline-block;
+  margin-bottom: 28px;
+  position: relative; }
+  .quote h3 {
+    font-family: "Edo Sz", sans-serif;
+    font-size: 3.23vw; }
+  .quote p {
+    font-family: 'Lato Black';
+    position: absolute;
+    right: 0;
+    margin-top: 16px; }
+
+.practices {
+  margin-top: 80px;
+  padding: 0; }
+
+.map {
+  background-color: grey;
+  margin: 40px 0; }
+
+.map_practice-item {
+  width: 50%;
+  display: inline-block; }
 
 .map_practice-info {
   display: inline-block; }
@@ -252,7 +309,8 @@ nav {
   background-color: #CCC; }
 
 .map_location {
-  display: inline-block; }
+  display: inline-block;
+  width: 33%; }
   .map_location p {
     font-family: 'Lato Black';
     display: inline-block; }

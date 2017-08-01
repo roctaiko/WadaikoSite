@@ -19,7 +19,7 @@ section{
 
 div {
     display: block;
-    margin: 0 auto;
+    margin: 0;
 }
 
 a {
@@ -39,7 +39,7 @@ button {
 /*The dots*/
 .small-graphic-dot span:before {
   content: ' \25CF';
-  font-size: 24px;
+  font-size: 48px;
   color: $color-orange;
 }
 

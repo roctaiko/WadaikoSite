@@ -1,6 +1,75 @@
-#who-we-are_box{
+.who-we-are{
+	padding-right: 100px;
+	overflow-x: hidden;
+}
+
+.who-we-are_box{
+	position: relative;
 	box-sizing: border-box;
-	padding: 3vw 8.51vw;
+	width: 680px;
+	padding: 4.7vw 8.51vw;
+	margin: 0 0 120px 21.42vw;
+
+	p{
+		margin-bottom: 40px;
+	}
+
+	ul{
+		margin: 128px 0 0 9.1vw;
+		max-width: 212px;
+	}
+
+	img{
+		position: absolute;
+		top: 276px;
+		left: -21.42vw;
+	}
+
+	.small-graphic-dot{
+		position: absolute;
+		top: 396px;
+		right: -56px;
+	}
+}
+
+.who_logo{
+	width: 348px;
+	float: right;
+	margin: 0 64px 0 100px;
+}
+
+.quote{
+	display: inline-block;
+	margin-bottom: 28px;
+	position: relative;
+
+	h3{
+		font-family: $font-heading2;
+		font-size: 3.23vw;
+	}
+
+	p{
+		font-family: 'Lato Black';
+		position: absolute;
+		right: 0;
+
+		margin-top: 16px;
+	}
+}
+
+.practices{
+	margin-top: 80px;
+	padding: 0;
+}
+
+.map{
+	background-color: grey;
+	margin: 40px 0;
+}
+
+.map_practice-item{
+	width: 50%;
+	display: inline-block;
 }
 
 .map_practice-info{
@@ -28,6 +97,7 @@
 
 .map_location{
 	display: inline-block;
+	width: 33%;
 
 	p{
 		font-family: 'Lato Black';
