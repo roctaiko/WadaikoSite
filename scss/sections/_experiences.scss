@@ -1,45 +1,79 @@
+// Viewport Conversion Function
+@function get-vw($target) { 
+  $vw-context: (1000*.01) * 1px;
+  @return ($target/$vw-context) * 1vw;
+}
+
 /* Experiences Styles */
+
+// GALLERY SECTION
+
+#gallery {
+	
+	position: relative;
+	margin-bottom: 10vw;
+
+	img { 
+		padding: get-vw(2px); 
+	}
+
+	.gallery_img1 {
+		height: 25vw;
+		width: 34vw;
+	}
+	.gallery_img2 {
+		height: 25vw;
+		width: 30vw;
+	}
+	.gallery_img3 {
+		height: 15vw;
+		width: 44vw;
+	}
+	.gallery_img4 {
+		height: 15vw;
+		width: 20vw;
+	}
+
+	.slider_controls {
+		position: absolute;
+		top: 10vw;
+		right: 3.5vw;
+	}
+
+}
+
+.right_aligned_heading {
+	margin-left: 55vw;
+}
+
+// TIMELINE SECTION
+
 .timeline img {
 	height: 436px;
 	width: 400px;
 }
 
-#gallery {
-	margin-top: 40px;
-	img { padding: 2px; }
-	.gallery_img1 {
-		height: 400px;
-		width: 525px;
-	}
-	.gallery_img2 {
-		height: 400px;
-		width: 425px;
-	}
-	.gallery_img3 {
-		height: 200px;
-		width: 625px;
-	}
-	.gallery_img4 {
-		height: 200px;
-		width: 325px;
-	}
-
-
-	.slider_controls {
-		margin-left: 60px;
-	}
-}
-
-/* Add to main styles for 
-black sections */
-.white {
+button {
+	background: transparent;
 	color: #FFFFFF;
-}
-.right {
-	text-align: right;
+	border: 2px solid white;
+	border-radius: 100px;
+	padding: 0vw 1.5vw;
+
+	margin-left: 10vw;
+
+	&:hover, &.selected {
+		color: #e57025;
+		border: 2px solid #e57025;
+	}
 }
 
-/* Add to main H1 circle style */
-.h1_circle {
-	background-color: #FFFFFF;
+.timeline-heading {
+	position: relative;
+
+	.button-row {
+		position: absolute;
+		right: 10vw;
+		top: 0;
+	}
 }
