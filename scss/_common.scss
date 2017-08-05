@@ -30,10 +30,20 @@ a {
 }
 
 button {
-	border-radius: 2px;
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 100px;
+	padding: 0vw 1.5vw;
+
+	color: #FFFFFF;
 	font-family: $font-heading;
 	font-size: 28pt;
 	letter-spacing: 0.05em;
+
+	&:hover, &.selected {
+		color: #e57025;
+		border: 2px solid #e57025;
+	}
 }
 
 /*The dots*/
@@ -91,6 +101,21 @@ button {
 	h1{
 		background-color: initial;
 		color: initial;
+	}
+
+	&::before, &::after{
+		content: url(../images/ui_elements/section-divider.png);
+		width: 100%;
+		height: 108px;
+		position: absolute;
+		left: 0;
+
+	}
+	&::before{
+		transform: translateY(-100%);
+	}
+	&::after{
+		transform: rotate(180deg);
 	}
 }
 

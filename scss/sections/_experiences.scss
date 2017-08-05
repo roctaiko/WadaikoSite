@@ -54,18 +54,7 @@
 }
 
 button {
-	background: transparent;
-	color: #FFFFFF;
-	border: 2px solid white;
-	border-radius: 100px;
-	padding: 0vw 1.5vw;
-
 	margin-left: 10vw;
-
-	&:hover, &.selected {
-		color: #e57025;
-		border: 2px solid #e57025;
-	}
 }
 
 .timeline-heading {

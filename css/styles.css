@@ -123,10 +123,17 @@ a {
   letter-spacing: 0.05em; }
 
 button {
-  border-radius: 2px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 100px;
+  padding: 0vw 1.5vw;
+  color: #FFFFFF;
   font-family: "Bebas Neue", sans-serif;
   font-size: 28pt;
   letter-spacing: 0.05em; }
+  button:hover, button.selected {
+    color: #e57025;
+    border: 2px solid #e57025; }
 
 /*The dots*/
 .small-graphic-dot span:before {
@@ -169,6 +176,16 @@ button {
   .dark-theme h1 {
     background-color: initial;
     color: initial; }
+  .dark-theme::before, .dark-theme::after {
+    content: url(../images/ui_elements/section-divider.png);
+    width: 100%;
+    height: 108px;
+    position: absolute;
+    left: 0; }
+  .dark-theme::before {
+    transform: translateY(-100%); }
+  .dark-theme::after {
+    transform: rotate(180deg); }
 
 .light-theme {
   background-color: #FFFFFF;
@@ -238,6 +255,80 @@ nav {
   width: 248px; }
 
 /* Positioning */
+#header-background {
+  background-image: url("../images/placeholders/ready.JPG");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center; }
+
+.header-title {
+  /*Positions the main box*/
+  position: static;
+  padding-top: 220px;
+  padding-left: 410px;
+  padding-right: 80px;
+  /*Positions the title*/
+  /*Positions the sub title*/
+  /*Positions the button*/ }
+  .header-title h1, .header-title h3, .header-title .header-button {
+    color: white; }
+  .header-title h1 {
+    padding-left: 30px; }
+  .header-title h3 {
+    padding-top: 35px;
+    padding-right: 80px; }
+  .header-title .header-button {
+    float: right;
+    margin-top: 20px;
+    margin-right: 128px;
+    border-color: white; }
+    .header-title .header-button span {
+      margin: 0 11px 0 11px; }
+
+.what-is-taiko {
+  background-color: white;
+  position: relative;
+  /*The entire box*/ }
+  .what-is-taiko img {
+    float: right;
+    position: absolute;
+    right: 100px;
+    bottom: 0px; }
+  .what-is-taiko .drum1 {
+    max-width: 25%;
+    height: auto;
+    right: 460px;
+    top: 375px; }
+  .what-is-taiko .drum2 {
+    max-width: 38%;
+    height: auto; }
+  .what-is-taiko .taiko-text {
+    position: absolute;
+    float: left;
+    text-align: left;
+    width: 30%;
+    /*The title and dots*/
+    /*Box with the text inside*/ }
+    .what-is-taiko .taiko-text .what-is-taiko-title {
+      float: left; }
+    .what-is-taiko .taiko-text .text {
+      padding-top: 25px;
+      width: auto;
+      float: left;
+      /*The explanation paragraph*/
+      /*Text to touch drum*/ }
+      .what-is-taiko .taiko-text .text .taiko-explanation {
+        width: 80%;
+        float: left; }
+      .what-is-taiko .taiko-text .text .drum-text {
+        width: 44%;
+        padding-top: 58px;
+        float: left;
+        font-weight: bold; }
+
 .who-we-are {
   padding-right: 100px;
   overflow-x: hidden; }
@@ -315,80 +406,70 @@ nav {
     font-family: 'Lato Black';
     display: inline-block; }
 
-.what-is-taiko {
-  background-color: white;
-  /*The entire box*/ }
-  .what-is-taiko img {
-    float: right;
+/* Experiences Styles */
+#gallery {
+  position: relative;
+  margin-bottom: 10vw; }
+  #gallery img {
+    padding: 0.2vw; }
+  #gallery .gallery_img1 {
+    height: 25vw;
+    width: 34vw; }
+  #gallery .gallery_img2 {
+    height: 25vw;
+    width: 30vw; }
+  #gallery .gallery_img3 {
+    height: 15vw;
+    width: 44vw; }
+  #gallery .gallery_img4 {
+    height: 15vw;
+    width: 20vw; }
+  #gallery .slider_controls {
     position: absolute;
-    right: 100px;
-    bottom: 0px; }
-  .what-is-taiko .drum1 {
-    max-width: 25%;
-    height: auto;
-    right: 460px;
-    top: 375px; }
-  .what-is-taiko .drum2 {
-    max-width: 38%;
-    height: auto; }
-  .what-is-taiko .taiko-text {
+    top: 10vw;
+    right: 3.5vw; }
+
+.right_aligned_heading {
+  margin-left: 55vw; }
+
+.timeline img {
+  height: 436px;
+  width: 400px; }
+
+button {
+  /*background: transparent;
+  color: #FFFFFF;
+  border: 2px solid white;
+  border-radius: 100px;
+  padding: 0vw 1.5vw;*/
+  margin-left: 10vw;
+  /*&:hover, &.selected {
+  	color: #e57025;
+  	border: 2px solid #e57025;
+  }*/ }
+
+.timeline-heading {
+  position: relative; }
+  .timeline-heading .button-row {
     position: absolute;
-    float: left;
-    text-align: left;
-    width: 30%;
-    /*The title and dots*/
-    /*Box with the text inside*/ }
-    .what-is-taiko .taiko-text .what-is-taiko-title {
-      float: left; }
-    .what-is-taiko .taiko-text .text {
-      padding-top: 25px;
-      width: auto;
-      float: left;
-      /*The explanation paragraph*/
-      /*Text to touch drum*/ }
-      .what-is-taiko .taiko-text .text .taiko-explanation {
-        width: 80%;
-        float: left; }
-      .what-is-taiko .taiko-text .text .drum-text {
-        width: 44%;
-        padding-top: 58px;
-        float: left;
-        font-weight: bold; }
+    right: 10vw;
+    top: 0; }
 
-#header-background {
-  background-image: url("../images/placeholders/ready.JPG");
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center; }
+/* Currently Visible Section of Merch */
+#merchandise-view {
+  position: relative;
+  margin-top: 5%; }
+  #merchandise-view .merchandise-item {
+    display: inline-block;
+    text-align: center; }
+    #merchandise-view .merchandise-item figcaption {
+      margin-top: 10%;
+      line-height: 1.75vw; }
 
-.header-title {
-  /*Positions the main box*/
-  position: static;
-  padding-top: 220px;
-  padding-left: 410px;
-  padding-right: 80px;
-  /*Positions the title*/
-  /*Positions the sub title*/
-  /*Positions the button*/ }
-  .header-title h1, .header-title h3, .header-title .header-button {
-    color: white; }
-  .header-title h1 {
-    padding-left: 30px; }
-  .header-title h3 {
-    padding-top: 35px;
-    padding-right: 80px; }
-  .header-title .header-button {
-    float: right;
-    margin-top: 20px;
-    margin-right: 128px;
-    background-color: transparent;
-    border-color: white;
-    border-radius: 20px;
-    border-style: solid; }
-    .header-title .header-button span {
-      margin: 0 11px 0 11px; }
+/* For vertically centering a slider control */
+.v-centered {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
 
 /*# sourceMappingURL=styles.css.map */
