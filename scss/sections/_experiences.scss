@@ -13,24 +13,25 @@
 	position: relative;
 	margin-bottom: 10vw;
 
-	img { 
-		padding: get-vw(2px); 
+	.gallery_image {
+		display: inline-block;
+		margin: 0;
 	}
 
 	.gallery_img1 {
-		height: 25vw;
+		height: 23vw;
 		width: 34vw;
 	}
 	.gallery_img2 {
-		height: 25vw;
+		height: 23vw;
 		width: 30vw;
 	}
 	.gallery_img3 {
-		height: 15vw;
+		height: 25vw;
 		width: 44vw;
 	}
 	.gallery_img4 {
-		height: 15vw;
+		height: 25vw;
 		width: 20vw;
 	}
 
@@ -38,6 +39,7 @@
 		position: absolute;
 		top: 10vw;
 		right: 3.5vw;
+		visibility: hidden;
 	}
 
 }
@@ -54,7 +56,18 @@
 }
 
 button {
+	background: transparent;
+	color: #FFFFFF;
+	border: 2px solid white;
+	border-radius: 100px;
+	padding: 0vw 1.5vw;
+
 	margin-left: 10vw;
+
+	&:hover, &.selected {
+		color: #e57025;
+		border: 2px solid #e57025;
+	}
 }
 
 .timeline-heading {
