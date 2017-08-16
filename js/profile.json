@@ -2,60 +2,155 @@
 
 	"members": [
 		{ "name": "Anne Isobel Tan",
-			// more info
+			"major": "4th Year Packaging Science",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"eboard": "President"
 		},
 		{ "name": "Patrick Ly",
-			// more info
+			"major": "3rd Year Computer Science",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"eboard": "Vice President"
 		},
 		{ "name": "Victoria Sardelli",
-			// more info
+			"major": "4th Year Computer Science",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"eboard": "Treasurer"
 		},
 		{ "name": "Mizuka Yasuda",
-			// more info
+			"major": "3rd Year",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"eboard": "Secretary"
 		},
 		{ "name": "Randall Conrad",
-			// more info
+			"major": "2nd Year",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"eboard": "Music Director"
 		},
 		{ "name": "Amy Pham",
-			// more info
+			"major": "4th Year New Media Design",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book."
 		},
 		{ "name": "Shihab Uddin",
-			// more info
+			"major": "3rd Year Computer Science",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
 		},
 		{ "name": "Asher Bozeman",
-			// more info
+			"major": "2nd Year",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
 		},
 		{ "name": "Alex Wall",
-			// more info
+			"major": "2nd Year",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
 		},
 		{ "name": "Isza Ceesay",
-			// more info
+			"major": "4th Year",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
 		},
 		{ "name": "Jeremy Glazer",
-			// more info
+			"major": "3rd Year Chemical Engineer",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
 		},
 		{ "name": "Connor Menard",
-			// more info
+			"major": "4th Year Game Design & Development",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
 		},
 		{ "name": "Hiroki Tanaka",
-			// more info
+			"major": "4th Year",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
 		},
 		{ "name": "Hector Escobedo",
-			// more info
+			"major": "3rd Year",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
 		},
 		{ "name": "Tom Slavin",
-			// more info
+			"major": "2nd Year Game Design & Development",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
 		},
 		{ "name": "Nicole Lopez",
-			// more info
+			"major": "2nd Year",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
 		},
 		{ "name": "Gary Xu",
-			// more info
+			"major": "4th Year",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
 		},
 		
 
 		{ "name": "Chris Mercado",
-			// more info
+			"major": "Game Design & Development (2014 - 2017)",
+			"interests": [],
+			"why": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
 		}
 
 	]
