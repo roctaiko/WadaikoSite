@@ -32,6 +32,10 @@
 	.modal_description{
 		display: inline-block;
 		width: 50%;
+
+		h4{
+			font-size: 24px;
+		}
 	}
 }
 .modal_close{
@@ -109,6 +113,24 @@
 	.member_categories{
 		display: block;
 		height: 100%;
+		float: left;
+
+		h4{
+			margin-bottom: 80px;
+		}
+	}
+	.member_answers{
+		margin-left: 132px;
+		vertical-align: top;
+
+		ul{
+			margin: 0;
+			margin-bottom: 40px;
+		}
+		li{
+			line-height: 32px;
+			margin: 0;
+		}
 	}
 
 	.member_img{
