@@ -146,7 +146,7 @@ button {
 
 .big-graphic-dot span:before {
   content: ' \25CF';
-  font-size: 68px;
+  font-size: 150px;
   color: #F1F1F1; }
 
 /*Slider Control*/
@@ -600,13 +600,32 @@ button {
     display: inline-block;
     padding-bottom: 15%;
     padding-top: 10%; }
+  .faqs h4 {
+    padding-bottom: 15px; }
   .faqs__column1 {
     max-width: 31%;
     float: left;
     padding-right: 10%; }
   .faqs__column2 {
     max-width: 35%; }
+    .faqs__column2__dots {
+      z-index: 1;
+      top: 0;
+      right: 15%;
+      position: absolute; }
+    .faqs__column2__row1 {
+      max-width: 25%;
+      z-index: 2;
+      top: 14%;
+      position: absolute; }
+    .faqs__column2__row2 {
+      max-width: 25%;
+      top: 78%;
+      position: absolute; }
     .faqs__column2__button {
+      top: 180%;
+      right: 33%;
+      position: absolute;
       color: #0F0F0F;
       border: 2px solid black !important; }
 

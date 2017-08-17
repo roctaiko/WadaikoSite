@@ -2,12 +2,19 @@
   background-color: $color-white;
   position: relative;
 
+  //Base divs
   div{
     display: inline-block;
     padding-bottom: 15%;
     padding-top: 10%;
   }
 
+  //Base h4's
+  h4{
+    padding-bottom: 15px;
+  }
+
+  //Column on the left
   &__column1{
     max-width: 31%;
     float: left;
@@ -19,15 +26,36 @@
 
     }
   }
+
+  //Column on the right
   &__column2{
     max-width: 35%;
-    &__row1{
 
+    //Set them to absolute
+    &__dots{
+      //Has to go behind the next row
+      z-index: 1;
+      top: 0;
+      right: 15%;
+      position: absolute;
+    }
+
+    &__row1{
+      //On top of the previous dot row
+      max-width: 25%;
+      z-index: 2;
+      top: 14%;
+      position: absolute;
     }
     &__row2{
-
+      max-width: 25%;
+      top: 78%;
+      position: absolute;
     }
     &__button{
+      top: 180%;
+      right: 33%;
+      position: absolute;
       color: $color-black;
       border: 2px solid black (!important);
     }
