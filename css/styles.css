@@ -594,9 +594,20 @@ button {
     padding-left: 40px; }
 
 .faqs {
-  background-color: #FFFFFF; }
-  .faqs__column2__button {
-    color: #0F0F0F;
-    border: 2px solid black !important; }
+  background-color: #FFFFFF;
+  position: relative; }
+  .faqs div {
+    display: inline-block;
+    padding-bottom: 15%;
+    padding-top: 10%; }
+  .faqs__column1 {
+    max-width: 31%;
+    float: left;
+    padding-right: 10%; }
+  .faqs__column2 {
+    max-width: 35%; }
+    .faqs__column2__button {
+      color: #0F0F0F;
+      border: 2px solid black !important; }
 
 /*# sourceMappingURL=styles.css.map */

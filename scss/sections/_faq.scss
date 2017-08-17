@@ -1,9 +1,32 @@
 .faqs{
   background-color: $color-white;
-  &__column1{
+  position: relative;
 
+  div{
+    display: inline-block;
+    padding-bottom: 15%;
+    padding-top: 10%;
+  }
+
+  &__column1{
+    max-width: 31%;
+    float: left;
+    padding-right: 10%;
+    &__row1{
+
+    }
+    &__row2{
+
+    }
   }
   &__column2{
+    max-width: 35%;
+    &__row1{
+
+    }
+    &__row2{
+
+    }
     &__button{
       color: $color-black;
       border: 2px solid black (!important);
