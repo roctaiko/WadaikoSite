@@ -1,0 +1,132 @@
+/* Modal Styling */
+.modal{
+	width: 934px;
+	position: relative;
+
+	margin: 100px auto;
+
+	box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+
+	header, .modal_content{
+		box-sizing: border-box;
+		width: 100%;
+		position: relative;
+
+		padding: 0 64px;
+	}
+	header{
+		height: 188px;
+
+		&::before{
+			display: none;
+		}
+		&::after{
+			bottom: -108px;
+		}
+	}
+	.modal_content{
+		margin-top: 72px;
+		padding: 56px 64px;
+	}
+
+	.modal_description{
+		display: inline-block;
+		width: 50%;
+	}
+}
+.modal_close{
+	width: 32px;
+	position: absolute;
+
+	top: 36px;
+	right: 36px;
+
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+/* Contact Modal */
+.contact-modal{
+	header{
+		height: 88px;
+	}
+	.h1_circle{
+		width: 146px;
+		height: 146px;
+		border-width: 12px;
+		position: relative;
+		top: -72px;
+		h1{
+			font-size: 28px;
+		}
+	}
+
+	.modal_description{
+		width: 40%;
+	}
+
+	form{
+		width: 60%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.form_group{
+		display: flex;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	label{
+		font: 24px $font-heading;
+		float: left;
+		margin-right: 20px;
+		&::after{
+			content: ' : ';
+		}
+	}
+	input, select, textarea{
+		font: 16px 'Lato';
+
+		border: none;
+		border-bottom: solid 1.5px $color-black;
+		flex-grow: 100;
+		resize: vertical;
+
+		&:focus{
+			outline: none;
+		}
+	}
+}
+
+/* Team Member Modal */
+.team-modal{
+	h1{
+		font-size: 50px;
+		padding: 76px 0 24px 0;
+	}
+
+	.member_categories{
+		display: block;
+		height: 100%;
+	}
+
+	.member_img{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+
+	li{
+		display: inline-block;
+		width: 50%;
+	}
+}
+
+/* Timeline Modal */
+.timeline-modal{
+	h1{
+		font-size: 40px;
+		padding: 60px 0 24px 0;
+	}
+}
