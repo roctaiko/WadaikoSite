@@ -1,0 +1,12 @@
+.faqs{
+  background-color: $color-white;
+  &__column1{
+
+  }
+  &__column2{
+    &__button{
+      color: $color-black;
+      border: 2px solid black (!important);
+    }
+  }
+}
