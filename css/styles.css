@@ -50,9 +50,7 @@ h1 {
   font-family: "Edo Sz", sans-serif;
   font-size: 44px;
   line-height: 48px;
-  letter-spacing: 0.06em;
-  /*margin-top: 40%;*/
-  /*margin-left: 6%;*/ }
+  letter-spacing: 0.06em; }
 
 .h1_circle {
   border: 18px solid #0F0F0F;
@@ -505,24 +503,26 @@ nav {
 #gallery {
   position: relative;
   margin-bottom: 10vw; }
-  #gallery img {
-    padding: 0.2vw; }
+  #gallery .gallery_image {
+    display: inline-block;
+    margin: 0; }
   #gallery .gallery_img1 {
-    height: 25vw;
+    height: 23vw;
     width: 34vw; }
   #gallery .gallery_img2 {
-    height: 25vw;
+    height: 23vw;
     width: 30vw; }
   #gallery .gallery_img3 {
-    height: 15vw;
+    height: 25vw;
     width: 44vw; }
   #gallery .gallery_img4 {
-    height: 15vw;
+    height: 25vw;
     width: 20vw; }
   #gallery .slider_controls {
     position: absolute;
     top: 10vw;
-    right: 3.5vw; }
+    right: 3.5vw;
+    visibility: hidden; }
 
 .right_aligned_heading {
   margin-left: 55vw; }
@@ -532,7 +532,15 @@ nav {
   width: 400px; }
 
 button {
+  background: transparent;
+  color: #FFFFFF;
+  border: 2px solid white;
+  border-radius: 100px;
+  padding: 0vw 1.5vw;
   margin-left: 10vw; }
+  button:hover, button.selected {
+    color: #e57025;
+    border: 2px solid #e57025; }
 
 .timeline-heading {
   position: relative; }
@@ -557,5 +565,18 @@ button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%); }
+
+.footer {
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center; }
+  .footer__copyright {
+    float: left;
+    padding-left: 40px; }
 
 /*# sourceMappingURL=styles.css.map */
