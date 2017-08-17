@@ -1,0 +1,19 @@
+merch = {
+
+	"items": [
+
+		{ "name": "WADAIKON Tee",
+			"price": "$19.99",
+			"image": "",
+			"link": "https://tinyurl.com/y9gg4m93"
+		}
+
+		{ "name": "DONguri Tee",
+			"price": "$19.99",
+			"image": "",
+			"link": "https://tinyurl.com/y8lshw9s"
+		}
+
+	]
+
+}

@@ -1,0 +1,205 @@
+timeline = {
+
+	"events": [
+
+		{ "title": "Introduction to Taiko",
+			"date": "October 2015",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "Instruction under Masanori Seto",
+			"date": "October - December 2015",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "First Performance at Snowfest",
+			"date": "December 2015",
+			"description": "Our first performance as a Taiko
+			group since practicing under Masanori Seto. Marks
+			the beginnings of WADAIKO with its first four members.",
+			"images": []
+		},
+
+
+
+		{ "title": "Officially Established as SG-recognized Club at RIT",
+			"date": "February 17, 2016",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "Instruction under Kenji Furutate",
+			"date": "April - May 2016",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "First Tora-Con Performance",
+			"date": "April 24, 2016",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "First Raijin no Matsuri Performance",
+			"date": "May 1, 2016",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "First ImagineRIT Performance",
+			"date": "May 7, 2016",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "First Major Recruitment",
+			"date": "August 20, 2016",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "Beginnings of Generation 1 (12 Active Members)",
+			"date": "September 16, 2016",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "First Fringe Festival Performance",
+			"date": "September 16, 2016",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "Japanese Singing Contest Performance",
+			"date": "November 11, 2016",
+			"description": "A short (debut) performance for a few of our
+			newer members at a Japanese Department Singing Contest.",
+			"images": []
+		},
+
+		{ "title": "Mini-Concert (Generation 1 Unofficial Debut)",
+			"date": "November 12, 2016",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "Second Snowfest Performance (Generation 1 Official Debut)",
+			"date": "December 3, 2016",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+
+
+		{ "title": "Storage Locker Obtained!",
+			"date": "February 6, 2017",
+			"description": "All our hard work finally paid off.",
+			"images": []
+		},
+
+		{ "title": "First Taiko Conference (ECTC 2017)",
+			"date": "February 17 - 19, 2017",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "Cart Obtained!",
+			"date": "March 25, 2017",
+			"description": "Less work for us :)",
+			"images": []
+		},
+
+		{ "title": "Japanese Culture Night",
+			"date": "April 7, 2017",
+			"description": "Our first original arrangement of two
+			of our pieces, CAN and Yama-Arashi.",
+			"images": []
+		},
+
+		{ "title": "ACS Fashion Show Performance",
+			"date": "April 12, 2017",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "Tora-Con 2017 Performance",
+			"date": "April 22, 2017",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "Attended First Taiko Concert (PULSE 2017)",
+			"date": "April 23, 2017",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+			an unknown printer took a galley of type and scrambled it to make a type 
+			specimen book.",
+			"images": []
+		},
+
+		{ "title": "Raijin no Matsuri 2017 Performance",
+			"date": "April 30, 2017",
+			"description": "Our second performance at Kaminari/WADAIKO's
+			annual event. A new piece called Sansa Odori debuted here.",
+			"images": []
+		},
+
+		{ "title": "ImagineRIT 2017 Performance",
+			"date": "May 6, 2017",
+			"description": "Our second performance for RIT's ImagineRIT
+			event. Due to the heavy rain, we improvised an arrangement on
+			a nearby set of stairs.",
+			"images": []
+		}		
+
+	]
+
+}
+
