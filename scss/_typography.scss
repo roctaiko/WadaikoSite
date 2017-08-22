@@ -43,19 +43,25 @@ h1 {
 	color: $color-black;
 	text-align: center;
 
-	width: 310px;
-	height: 310px;
+	width: 274px;
+	height: 274px;
+
+	position: absolute;
+	top: -110px;
+	z-index: 3;
 
 	h1{
 		margin-top: 50%;
     	transform: translateY(-50%);
+    	font-size: 36px;
 	}
 
 	&.small {
-		width: 256px;
-		height: 256px;
+		width: 220px;
+		height: 220px;
+		top: -128px;
 		h1 {
-	    	font-size: 36px;
+	    	font-size: 44px;
 	 	}
 	}
 }

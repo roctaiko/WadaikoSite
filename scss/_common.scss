@@ -11,10 +11,13 @@ body {
     -webkit-font-smoothing: antialiased;
 
     margin: 0;
+
+    overflow-x: hidden;
 }
 
 section{
-	padding-left: 24.21vw;
+	padding: 92px 0 204px 24.21vw;
+	position: relative;
 }
 
 div {
@@ -99,10 +102,9 @@ button {
 	background-color: $color-black;
 	color: $color-white;
 
-	/*h1{
-		background-color: $color-white;
-		color: initial;
-	}*/
+	.h1_circle{
+		top: -210px;
+	}
 
 	&::before, &::after{
 		content: ' ';
@@ -111,18 +113,25 @@ button {
 		height: 108px;
 		position: absolute;
 		left: 0;
+		z-index: 1;
 	}
 	&::before{
-		transform: translateY(-100%);
+		top: -108px;
 	}
 	&::after{
 		transform: rotate(180deg);
+		bottom: -108px;
 	}
 }
 
 .light-theme{
 	background-color: $color-white;
 	color: $color-black;
+
+	button{
+		color: $color-black;
+		border-color: $color-black;
+	}
 }
 
 

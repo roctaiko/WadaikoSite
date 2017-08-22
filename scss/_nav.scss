@@ -1,5 +1,11 @@
 nav{
 	display: inline-block;
+
+	position: fixed;
+	top: 36px;
+	left: 40px;
+
+	z-index: 10;
 	a{
 		color: $color-white;
 		font: 700 20pt/36pt $font-heading;
@@ -10,6 +16,13 @@ nav{
 		font-size: 26pt;
 		padding-left: 10px;
 		border-left: solid 4px $color-orange;
+	}
+
+	&.black{
+		z-index: 9;
+		a{
+			color: $color-black;
+		}
 	}
 
 	.logo{
@@ -26,10 +39,12 @@ nav{
 	.orange{
 		fill: $color-orange;
 	}
-	.white{
+	.main{
 		fill: $color-white;
 	}
-	.black{
-		fill: $color-black;
+	&.black{
+		.main{
+			fill: $color-black;
+		}
 	}
 }

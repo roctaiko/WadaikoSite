@@ -1,11 +1,17 @@
+.merchandise{
+	padding-top: 224px;
+}
+
 /* Currently Visible Section of Merch */
 #merchandise-view {
 	position: relative;
-	margin-top: 5%;
+	text-align: center;
 
 	.merchandise-item {
 		display: inline-block;
-		text-align: center;
+		margin: 0 2vw;
+		text-decoration: none;
+		color: $color-black;
 
 		figcaption {
 			margin-top: 10%;

@@ -1,12 +1,13 @@
 .faqs{
   background-color: $color-white;
   position: relative;
+  padding-top: 200px;
 
   //Base divs
-  div{
+  .faq_item{
+    max-width: 396px;
     display: inline-block;
-    padding-bottom: 15%;
-    padding-top: 10%;
+    padding-bottom: 76px;
   }
 
   //Base h4's
@@ -14,8 +15,29 @@
     padding-bottom: 15px;
   }
 
-  //Column on the left
-  &__column1{
+  .faqs__column{
+    width: 50%;
+    display: inline-block;
+
+    &.col1{
+      float: left;
+    }
+  }
+
+  //Set them to absolute
+  & .big-graphic-dot{
+    top: 0;
+    right: 15%;
+    position: absolute;
+  }
+
+  /*&__button{
+    color: $color-black;
+    border: 2px solid black (!important);
+  }*/
+
+    //Column on the left
+  /*&__column1{
     max-width: 31%;
     float: left;
     padding-right: 10%;
@@ -59,5 +81,5 @@
       color: $color-black;
       border: 2px solid black (!important);
     }
-  }
+  }*/
 }
