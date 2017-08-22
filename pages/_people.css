@@ -1,0 +1,24 @@
+.kenji_link {
+  text-decoration: none; }
+
+.masa_info, .kenji_info {
+  padding: 5vw 10vw 5vw 0; }
+
+.masa_title, .kenji_title {
+  margin-bottom: 2vw; }
+
+.masa_image, .kenji_image {
+  border-radius: 100%;
+  height: 20vw;
+  width: 20vw;
+  float: left;
+  margin-right: 5vw; }
+
+.right-aligned {
+  right: 10vw; }
+
+.team_img {
+  width: 66vw;
+  height: 25vw; }
+
+/*# sourceMappingURL=_people.css.map */
