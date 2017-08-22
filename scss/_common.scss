@@ -56,7 +56,8 @@ button {
 
 .big-graphic-dot span:before{
   content: ' \25CF';
-  font-size: 68px;
+  //Changed to 150px from 68px
+  font-size: 150px;
   color: #F1F1F1;
 }
 
@@ -98,18 +99,18 @@ button {
 	background-color: $color-black;
 	color: $color-white;
 
-	h1{
-		background-color: initial;
+	/*h1{
+		background-color: $color-white;
 		color: initial;
-	}
+	}*/
 
 	&::before, &::after{
-		content: url(../images/ui_elements/section-divider.png);
+		content: ' ';
+		background: url(../images/ui_elements/section-divider.png);
 		width: 100%;
 		height: 108px;
 		position: absolute;
 		left: 0;
-
 	}
 	&::before{
 		transform: translateY(-100%);

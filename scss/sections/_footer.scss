@@ -1,0 +1,15 @@
+.footer{
+  color: $color-white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: $color-black;
+  text-align: center;
+
+  &__copyright{
+    float: left;
+    padding-left:40px;
+  }
+}
