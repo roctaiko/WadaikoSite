@@ -50,9 +50,11 @@
 
 // TIMELINE SECTION
 
-.timeline img {
+.timeline_item{
 	height: 436px;
 	width: 400px;
+	background-image: url("../images/pastConcert.jpg");
+	background-size: cover;
 }
 
 button {

@@ -1,3 +1,8 @@
+.header{
+  height: 536px;
+  box-sizing: border-box;
+}
+
 #header-background{
   background-image: url("../images/placeholders/ready.JPG");
   background-repeat:no-repeat;
@@ -8,16 +13,21 @@
   background-position:center;
 }
 
+.header::before{
+  display: none;
+}
+.header::after{
+  background: url(../images/ui_elements/section-divider-white.png);
+  transform: rotate(0deg);
+  bottom: 0;
+}
+
 .header-title{
   /*Positions the main box*/
   position: static;
-  padding-top: 220px;
+  padding-top: 286px;
   padding-left: 410px;
   padding-right: 80px;
-
-  h1,h3, .header-button{
-    color: white;
-  }
 
   /*Positions the title*/
   h1{
@@ -35,7 +45,6 @@
     float: right;
     margin-top: 20px;
     margin-right: 128px;
-    border-color: white;
 
     span{
       margin: 0 11px 0 11px;
