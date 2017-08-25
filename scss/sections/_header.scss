@@ -24,20 +24,13 @@
 
 .header-title{
   /*Positions the main box*/
-  position: static;
-  padding-top: 286px;
-  padding-left: 410px;
-  padding-right: 80px;
+  position: absolute;
+  bottom: 200px;
+  right: 116px;
+  text-align: right;
 
-  /*Positions the title*/
   h1{
-    padding-left: 30px;
-  }
-
-  /*Positions the sub title*/
-  h3{
-    padding-top: 35px;
-    padding-right: 80px;
+    margin-bottom: 40px;
   }
 
   /*Positions the button*/

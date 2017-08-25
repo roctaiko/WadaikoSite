@@ -20,26 +20,24 @@
 
   /*The entire box*/
   .taiko-text{
-    position: absolute;
-    float: left;
+    /*position: absolute;
+    float: left;*/
     text-align: left;
     width: 30%;
 
     /*The title and dots*/
-    .what-is-taiko-title{
+    /*.what-is-taiko-title{
       float: left;
-    }
+    }*/
 
     /*Box with the text inside*/
     .text{
       padding-top: 25px;
       width: auto;
-      float: left;
 
        /*The explanation paragraph*/
       .taiko-explanation{
         width: 80%;
-        float: left;
       }
 
       /*Text to touch drum*/

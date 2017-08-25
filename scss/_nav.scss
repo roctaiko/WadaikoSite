@@ -3,15 +3,18 @@ nav{
 	background-color: $color-black;
 
 	position: fixed;
-	top: 36px;
-	left: 40px;
+	height: 100%;
+	padding: 36px 36px;
 
 	z-index: 10;
 	a{
 		color: $color-white;
-		font: 700 20pt/36pt $font-heading;
+		font: 700 20px/36px $font-heading;
 		letter-spacing: 0.05em;
 		text-decoration: none;
+
+		position: relative;
+		left: 12px;
 		&:hover{
 			color: $color-orange;
 		}
@@ -34,6 +37,8 @@ nav{
 
 	.logo{
 		width: 128px;
+		right: 12px;
+		margin-bottom: 38px;
 		&.min{
 			width: 80px;
 		}
