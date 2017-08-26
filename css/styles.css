@@ -129,7 +129,7 @@ div {
 a {
   color: #e57025;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 28pt;
+  font-size: 28px;
   letter-spacing: 0.05em; }
 
 button {
@@ -207,6 +207,9 @@ button {
     color: #0F0F0F;
     border-color: #0F0F0F; }
 
+.wrapper {
+  overflow: hidden; }
+
 .dark-overlay {
   width: 100%;
   height: 100%;
@@ -258,7 +261,7 @@ nav {
 
 /* Unique Elements */
 /* Header */
-.header, .what-is-taiko {
+.header {
   min-height: 100%;
   padding-bottom: 100px;
   text-align: center; }
@@ -429,62 +432,66 @@ nav {
     .header-title .header-button span {
       margin: 0 11px 0 11px; }
 
-.what-is-taiko {
+#what-is-taiko {
+  padding-bottom: 304px;
   /*The entire box*/ }
-  .what-is-taiko img {
-    float: right;
+  #what-is-taiko img {
     position: absolute;
-    right: 100px;
-    bottom: 0px; }
-  .what-is-taiko .drum1 {
+    right: 20px;
+    bottom: -70px; }
+  #what-is-taiko .drum1 {
     max-width: 25%;
     height: auto;
-    right: 460px;
-    top: 375px; }
-  .what-is-taiko .drum2 {
+    right: 360px; }
+  #what-is-taiko .drum2 {
     max-width: 38%;
     height: auto; }
-  .what-is-taiko .taiko-text {
+  #what-is-taiko .taiko-text {
     /*position: absolute;
     float: left;*/
     text-align: left;
-    width: 30%;
+    width: 40%;
     /*The title and dots*/
     /*.what-is-taiko-title{
       float: left;
     }*/
     /*Box with the text inside*/ }
-    .what-is-taiko .taiko-text .text {
+    #what-is-taiko .taiko-text .text {
       padding-top: 25px;
       width: auto;
       /*The explanation paragraph*/
       /*Text to touch drum*/ }
-      .what-is-taiko .taiko-text .text .taiko-explanation {
-        width: 80%; }
-      .what-is-taiko .taiko-text .text .drum-text {
+      #what-is-taiko .taiko-text .text .taiko-explanation {
+        /*width: 80%;*/ }
+      #what-is-taiko .taiko-text .text .drum-text {
         width: 44%;
         padding-top: 58px;
         float: left;
         font-weight: bold; }
 
-.who-we-are {
+#who-we-are {
   padding-right: 100px; }
 
 .who-we-are_box {
   position: relative;
   box-sizing: border-box;
   width: 680px;
-  padding: 4.7vw 8.51vw;
+  padding: 4.7vw 8.51vw 9.21vw 8.51vw;
   margin: 0 0 120px 21.42vw; }
   .who-we-are_box p {
     margin-bottom: 40px; }
   .who-we-are_box ul {
     margin: 128px 0 0 9.1vw;
     max-width: 212px; }
-  .who-we-are_box img {
+  .who-we-are_box .img-wrapper {
     position: absolute;
+    width: 406px;
+    height: 448px;
     top: 276px;
     left: -21.42vw; }
+    .who-we-are_box .img-wrapper img {
+      width: 300%;
+      transform: translate(-16%, -20%); }
   .who-we-are_box .small-graphic-dot {
     position: absolute;
     top: 396px;
@@ -538,7 +545,7 @@ nav {
 
 .map_location {
   display: inline-block;
-  width: 33%; }
+  width: 48%; }
   .map_location p {
     font-family: 'Lato Black';
     display: inline-block; }
@@ -610,8 +617,9 @@ button {
     right: 10vw;
     top: 0; }
 
-.merchandise {
-  padding-top: 224px; }
+#merchandise {
+  padding-top: 224px;
+  padding-bottom: 288px; }
 
 /* Currently Visible Section of Merch */
 #merchandise-view {
@@ -625,6 +633,10 @@ button {
     #merchandise-view .merchandise-item figcaption {
       margin-top: 10%;
       line-height: 1.75vw; }
+
+.price {
+  font-family: 'Lato Bold';
+  margin-top: 20px; }
 
 /* For vertically centering a slider control */
 .v-centered {
@@ -714,6 +726,9 @@ button {
     top: 0;
     right: 15%;
     position: absolute; }
+
+#people {
+  padding-bottom: 288px; }
 
 .kenji_link {
   text-decoration: none; }

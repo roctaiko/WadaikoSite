@@ -1,16 +1,15 @@
-.what-is-taiko{
+#what-is-taiko{
+  padding-bottom: 304px;
 
   img{
-    float: right;
     position: absolute;
-    right: 100px;
-    bottom: 0px;
+    right: 20px;
+    bottom: -70px;
   }
   .drum1{
     max-width: 25%;
     height: auto;
-    right: 460px;
-    top: 375px;
+    right: 360px;
   }
 
   .drum2{
@@ -23,7 +22,7 @@
     /*position: absolute;
     float: left;*/
     text-align: left;
-    width: 30%;
+    width: 40%;
 
     /*The title and dots*/
     /*.what-is-taiko-title{
@@ -37,7 +36,7 @@
 
        /*The explanation paragraph*/
       .taiko-explanation{
-        width: 80%;
+        /*width: 80%;*/
       }
 
       /*Text to touch drum*/

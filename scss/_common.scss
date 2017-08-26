@@ -28,7 +28,7 @@ div {
 a {
     color: $color-orange;
     font-family: $font-heading;
-    font-size: 28pt;
+    font-size: 28px;
 	letter-spacing: 0.05em;
 }
 
@@ -133,6 +133,10 @@ button {
 		color: $color-black;
 		border-color: $color-black;
 	}
+}
+
+.wrapper{
+	overflow: hidden;
 }
 
 .dark-overlay{

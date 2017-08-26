@@ -1,4 +1,6 @@
 function init() {
+
+	/*match up timeline to selected year*/
 	var selectedYear = document.querySelector('.timeline_buttons').querySelector('.selected').innerText;
 	console.log(document.querySelector('.timeline_buttons').querySelector('button'));
 	document.querySelector('.timeline_buttons').querySelectorAll('button').forEach(function(button){
@@ -9,4 +11,6 @@ function init() {
 			generateTimeline();
 		}
 	});
+
+	/*open the modal*/
 }

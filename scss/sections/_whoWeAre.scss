@@ -1,4 +1,4 @@
-.who-we-are{
+#who-we-are{
 	padding-right: 100px;
 }
 
@@ -6,7 +6,7 @@
 	position: relative;
 	box-sizing: border-box;
 	width: 680px;
-	padding: 4.7vw 8.51vw;
+	padding: 4.7vw 8.51vw 9.21vw 8.51vw;
 	margin: 0 0 120px 21.42vw;
 
 	p{
@@ -18,10 +18,17 @@
 		max-width: 212px;
 	}
 
-	img{
+	.img-wrapper{
 		position: absolute;
+		width: 406px;
+		height: 448px;
 		top: 276px;
 		left: -21.42vw;
+
+		img{
+			width: 300%;
+			transform: translate(-16%, -20%);
+		}
 	}
 
 	.small-graphic-dot{
@@ -96,7 +103,7 @@
 
 .map_location{
 	display: inline-block;
-	width: 33%;
+	width: 48%;
 
 	p{
 		font-family: 'Lato Black';
