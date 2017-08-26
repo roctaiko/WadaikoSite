@@ -155,7 +155,8 @@ button {
 .big-graphic-dot span:before {
   content: ' \25CF';
   font-size: 150px;
-  color: #F1F1F1; }
+  color: #F1F1F1;
+  display: none; }
 
 /*Slider Control*/
 .slider_controls {
@@ -189,11 +190,12 @@ button {
   .dark-theme::before, .dark-theme::after {
     content: ' ';
     background: url(../images/ui_elements/section-divider.png);
-    width: 100%;
+    max-width: 100% !important;
     height: 108px;
     position: absolute;
     left: 0;
-    z-index: 1; }
+    z-index: 1;
+    display: none; }
   .dark-theme::before {
     top: -108px; }
   .dark-theme::after {

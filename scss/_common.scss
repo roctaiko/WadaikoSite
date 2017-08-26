@@ -63,6 +63,7 @@ button {
   //Changed to 150px from 68px
   font-size: 150px;
   color: #F1F1F1;
+  display: none;
 }
 
 /*Slider Control*/
@@ -110,11 +111,12 @@ button {
 	&::before, &::after{
 		content: ' ';
 		background: url(../images/ui_elements/section-divider.png);
-		width: 100%;
+		max-width: 100%(!important);
 		height: 108px;
 		position: absolute;
 		left: 0;
 		z-index: 1;
+    display: none;
 	}
 	&::before{
 		top: -108px;
