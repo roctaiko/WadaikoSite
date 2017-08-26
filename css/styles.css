@@ -113,8 +113,8 @@ html {
 
 body {
   width: 100%;
-  height: 100%;
   -webkit-font-smoothing: antialiased;
+  position: relative;
   margin: 0;
   overflow-x: hidden; }
 
@@ -217,14 +217,16 @@ nav {
   display: inline-block;
   background-color: #0F0F0F;
   position: fixed;
-  top: 36px;
-  left: 40px;
+  height: 100%;
+  padding: 36px 36px;
   z-index: 10; }
   nav a {
     color: #FFFFFF;
-    font: 700 20pt/36pt "Bebas Neue", sans-serif;
+    font: 700 20px/36px "Bebas Neue", sans-serif;
     letter-spacing: 0.05em;
-    text-decoration: none; }
+    text-decoration: none;
+    position: relative;
+    left: 12px; }
     nav a:hover {
       color: #e57025; }
   nav .selected {
@@ -238,7 +240,9 @@ nav {
     nav.black a {
       color: #0F0F0F; }
   nav .logo {
-    width: 128px; }
+    width: 128px;
+    right: 12px;
+    margin-bottom: 38px; }
     nav .logo.min {
       width: 80px; }
 
@@ -409,18 +413,13 @@ nav {
 
 .header-title {
   /*Positions the main box*/
-  position: static;
-  padding-top: 286px;
-  padding-left: 410px;
-  padding-right: 80px;
-  /*Positions the title*/
-  /*Positions the sub title*/
+  position: absolute;
+  bottom: 200px;
+  right: 116px;
+  text-align: right;
   /*Positions the button*/ }
   .header-title h1 {
-    padding-left: 30px; }
-  .header-title h3 {
-    padding-top: 35px;
-    padding-right: 80px; }
+    margin-bottom: 40px; }
   .header-title .header-button {
     float: right;
     margin-top: 20px;
@@ -444,23 +443,22 @@ nav {
     max-width: 38%;
     height: auto; }
   .what-is-taiko .taiko-text {
-    position: absolute;
-    float: left;
+    /*position: absolute;
+    float: left;*/
     text-align: left;
     width: 30%;
     /*The title and dots*/
+    /*.what-is-taiko-title{
+      float: left;
+    }*/
     /*Box with the text inside*/ }
-    .what-is-taiko .taiko-text .what-is-taiko-title {
-      float: left; }
     .what-is-taiko .taiko-text .text {
       padding-top: 25px;
       width: auto;
-      float: left;
       /*The explanation paragraph*/
       /*Text to touch drum*/ }
       .what-is-taiko .taiko-text .text .taiko-explanation {
-        width: 80%;
-        float: left; }
+        width: 80%; }
       .what-is-taiko .taiko-text .text .drum-text {
         width: 44%;
         padding-top: 58px;
@@ -620,7 +618,8 @@ button {
 .footer {
   color: #FFFFFF;
   padding: 1rem;
-  background-color: #0F0F0F; }
+  background-color: #0F0F0F;
+  z-index: 10; }
   .footer__copyright {
     /*float: left;*/
     padding-left: 40px; }
@@ -666,6 +665,9 @@ button {
 
 .team_img {
   width: 66vw;
-  height: 25vw; }
+  height: 25vw;
+  overflow: hidden; }
+  .team_img img {
+    width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

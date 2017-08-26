@@ -3,6 +3,8 @@
   padding: 1rem;
   background-color: $color-black;
 
+  z-index: 10;
+
   &__copyright{
     /*float: left;*/
     padding-left:40px;
