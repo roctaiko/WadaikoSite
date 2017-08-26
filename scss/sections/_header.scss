@@ -1,10 +1,11 @@
 .header{
-  height: 536px;
+  height: 95vh;
+  min-height: 536px;
   box-sizing: border-box;
 }
 
 #header-background{
-  background-image: url("../images/placeholders/ready.JPG");
+  background-image: url("../images/placeholders/ready-1-super-min.jpg");
   background-repeat:no-repeat;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -24,20 +25,13 @@
 
 .header-title{
   /*Positions the main box*/
-  position: static;
-  padding-top: 286px;
-  padding-left: 410px;
-  padding-right: 80px;
+  position: absolute;
+  bottom: 200px;
+  right: 116px;
+  text-align: right;
 
-  /*Positions the title*/
   h1{
-    padding-left: 30px;
-  }
-
-  /*Positions the sub title*/
-  h3{
-    padding-top: 35px;
-    padding-right: 80px;
+    margin-bottom: 40px;
   }
 
   /*Positions the button*/

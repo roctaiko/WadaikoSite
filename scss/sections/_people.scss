@@ -1,3 +1,7 @@
+#people{
+	padding-bottom: 288px;
+}
+
 .kenji_link {
 	text-decoration: none;
 }
@@ -27,4 +31,9 @@
 .team_img { 
 	width: 66vw;
 	height: 25vw;
+	overflow: hidden;
+
+	img{
+		width: 100%;
+	}
 }

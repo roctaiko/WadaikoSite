@@ -113,8 +113,8 @@ html {
 
 body {
   width: 100%;
-  height: 100%;
   -webkit-font-smoothing: antialiased;
+  position: relative;
   margin: 0;
   overflow-x: hidden; }
 
@@ -129,13 +129,14 @@ div {
 a {
   color: #e57025;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 28pt;
+  font-size: 28px;
   letter-spacing: 0.05em; }
 
 button {
   background: transparent;
   border: 2px solid white;
   border-radius: 100px;
+  outline: none;
   padding: 0vw 1.5vw;
   color: #FFFFFF;
   font-family: "Bebas Neue", sans-serif;
@@ -154,7 +155,8 @@ button {
 .big-graphic-dot span:before {
   content: ' \25CF';
   font-size: 150px;
-  color: #F1F1F1; }
+  color: #F1F1F1;
+  display: none; }
 
 /*Slider Control*/
 .slider_controls {
@@ -188,11 +190,12 @@ button {
   .dark-theme::before, .dark-theme::after {
     content: ' ';
     background: url(../images/ui_elements/section-divider.png);
-    width: 100%;
+    max-width: 100% !important;
     height: 108px;
     position: absolute;
     left: 0;
-    z-index: 1; }
+    z-index: 1;
+    display: none; }
   .dark-theme::before {
     top: -108px; }
   .dark-theme::after {
@@ -206,6 +209,9 @@ button {
     color: #0F0F0F;
     border-color: #0F0F0F; }
 
+.wrapper {
+  overflow: hidden; }
+
 .dark-overlay {
   width: 100%;
   height: 100%;
@@ -217,14 +223,16 @@ nav {
   display: inline-block;
   background-color: #0F0F0F;
   position: fixed;
-  top: 36px;
-  left: 40px;
+  height: 100%;
+  padding: 36px 36px;
   z-index: 10; }
   nav a {
     color: #FFFFFF;
-    font: 700 20pt/36pt "Bebas Neue", sans-serif;
+    font: 700 20px/36px "Bebas Neue", sans-serif;
     letter-spacing: 0.05em;
-    text-decoration: none; }
+    text-decoration: none;
+    position: relative;
+    left: 12px; }
     nav a:hover {
       color: #e57025; }
   nav .selected {
@@ -238,7 +246,9 @@ nav {
     nav.black a {
       color: #0F0F0F; }
   nav .logo {
-    width: 128px; }
+    width: 128px;
+    right: 12px;
+    margin-bottom: 38px; }
     nav .logo.min {
       width: 80px; }
 
@@ -253,7 +263,7 @@ nav {
 
 /* Unique Elements */
 /* Header */
-.header, .what-is-taiko {
+.header {
   min-height: 100%;
   padding-bottom: 100px;
   text-align: center; }
@@ -284,6 +294,13 @@ nav {
 .merch_img {
   max-height: 248px;
   max-width: 248px; }
+
+.facebook-feed, .social-media-column {
+  display: inline-block;
+  padding: 1vw 0.5vw; }
+
+.instagram-feed {
+  margin-bottom: 2vw; }
 
 /* Modal Styling */
 .modal {
@@ -387,11 +404,12 @@ nav {
 
 /* Positioning */
 .header {
-  height: 536px;
+  height: 95vh;
+  min-height: 536px;
   box-sizing: border-box; }
 
 #header-background {
-  background-image: url("../images/placeholders/ready.JPG");
+  background-image: url("../images/placeholders/ready-1-super-min.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -409,18 +427,13 @@ nav {
 
 .header-title {
   /*Positions the main box*/
-  position: static;
-  padding-top: 286px;
-  padding-left: 410px;
-  padding-right: 80px;
-  /*Positions the title*/
-  /*Positions the sub title*/
+  position: absolute;
+  bottom: 200px;
+  right: 116px;
+  text-align: right;
   /*Positions the button*/ }
   .header-title h1 {
-    padding-left: 30px; }
-  .header-title h3 {
-    padding-top: 35px;
-    padding-right: 80px; }
+    margin-bottom: 40px; }
   .header-title .header-button {
     float: right;
     margin-top: 20px;
@@ -428,63 +441,66 @@ nav {
     .header-title .header-button span {
       margin: 0 11px 0 11px; }
 
-.what-is-taiko {
+#what-is-taiko {
+  padding-bottom: 304px;
   /*The entire box*/ }
-  .what-is-taiko img {
-    float: right;
+  #what-is-taiko img {
     position: absolute;
-    right: 100px;
-    bottom: 0px; }
-  .what-is-taiko .drum1 {
+    right: 20px;
+    bottom: -70px; }
+  #what-is-taiko .drum1 {
     max-width: 25%;
     height: auto;
-    right: 460px;
-    top: 375px; }
-  .what-is-taiko .drum2 {
+    right: 360px; }
+  #what-is-taiko .drum2 {
     max-width: 38%;
     height: auto; }
-  .what-is-taiko .taiko-text {
-    position: absolute;
-    float: left;
+  #what-is-taiko .taiko-text {
+    /*position: absolute;
+    float: left;*/
     text-align: left;
-    width: 30%;
+    width: 40%;
     /*The title and dots*/
+    /*.what-is-taiko-title{
+      float: left;
+    }*/
     /*Box with the text inside*/ }
-    .what-is-taiko .taiko-text .what-is-taiko-title {
-      float: left; }
-    .what-is-taiko .taiko-text .text {
+    #what-is-taiko .taiko-text .text {
       padding-top: 25px;
       width: auto;
-      float: left;
       /*The explanation paragraph*/
       /*Text to touch drum*/ }
-      .what-is-taiko .taiko-text .text .taiko-explanation {
-        width: 80%;
-        float: left; }
-      .what-is-taiko .taiko-text .text .drum-text {
+      #what-is-taiko .taiko-text .text .taiko-explanation {
+        /*width: 80%;*/ }
+      #what-is-taiko .taiko-text .text .drum-text {
         width: 44%;
         padding-top: 58px;
         float: left;
         font-weight: bold; }
 
-.who-we-are {
+#who-we-are {
   padding-right: 100px; }
 
 .who-we-are_box {
   position: relative;
   box-sizing: border-box;
   width: 680px;
-  padding: 4.7vw 8.51vw;
+  padding: 4.7vw 8.51vw 9.21vw 8.51vw;
   margin: 0 0 120px 21.42vw; }
   .who-we-are_box p {
     margin-bottom: 40px; }
   .who-we-are_box ul {
     margin: 128px 0 0 9.1vw;
     max-width: 212px; }
-  .who-we-are_box img {
+  .who-we-are_box .img-wrapper {
     position: absolute;
+    width: 406px;
+    height: 448px;
     top: 276px;
     left: -21.42vw; }
+    .who-we-are_box .img-wrapper img {
+      width: 300%;
+      transform: translate(-16%, -20%); }
   .who-we-are_box .small-graphic-dot {
     position: absolute;
     top: 396px;
@@ -538,7 +554,7 @@ nav {
 
 .map_location {
   display: inline-block;
-  width: 33%; }
+  width: 48%; }
   .map_location p {
     font-family: 'Lato Black';
     display: inline-block; }
@@ -571,11 +587,26 @@ nav {
 .right_aligned_heading {
   margin-left: 55vw; }
 
-.timeline_item {
+.timeline, .timeline_wrapper {
   height: 436px;
-  width: 400px;
-  background-image: url("../images/pastConcert.jpg");
-  background-size: cover; }
+  width: 2000px;
+  overflow-y: hidden; }
+
+.timeline_item {
+  float: left;
+  vertical-align: top;
+  height: 436px;
+  width: 333px;
+  /*background-image: url("../images/pastConcert.jpg");*/
+  background-size: cover;
+  border: solid 1px #0F0F0F; }
+  .timeline_item .item_text {
+    display: inline-block;
+    text-align: left;
+    margin: 112px 44px; }
+  .timeline_item .date {
+    font-family: 'Lato Bold';
+    margin-bottom: 20px; }
 
 button {
   background: transparent;
@@ -590,13 +621,14 @@ button {
 
 .timeline-heading {
   position: relative; }
-  .timeline-heading .button-row {
+  .timeline-heading .timeline_buttons {
     position: absolute;
     right: 10vw;
     top: 0; }
 
-.merchandise {
-  padding-top: 224px; }
+#merchandise {
+  padding-top: 224px;
+  padding-bottom: 288px; }
 
 /* Currently Visible Section of Merch */
 #merchandise-view {
@@ -611,6 +643,10 @@ button {
       margin-top: 10%;
       line-height: 1.75vw; }
 
+.price {
+  font-family: 'Lato Bold';
+  margin-top: 20px; }
+
 /* For vertically centering a slider control */
 .v-centered {
   position: absolute;
@@ -619,71 +655,30 @@ button {
 
 .footer {
   color: #FFFFFF;
-  /*position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  */
   padding: 1rem;
-  background-color: #0F0F0F; }
+  background-color: #0F0F0F;
+  z-index: 10;
+  position: relative; }
   .footer__copyright {
     /*float: left;*/
-    padding-left: 40px; }
+    padding-left: 40px;
+    display: inline-block;
+    font: 20px 'Bebas Neue'; }
+  .footer__tribute {
+    padding-left: 25%;
+    display: inline-block;
+    text-align: center; }
+    .footer__tribute p {
+      font-size: 12px; }
+  .footer__socials {
+    float: right;
+    padding-right: 40px;
+    display: inline-block; }
 
 .faqs {
   background-color: #FFFFFF;
   position: relative;
-  padding-top: 200px;
-  /*&__button{
-    color: $color-black;
-    border: 2px solid black (!important);
-  }*/
-  /*&__column1{
-    max-width: 31%;
-    float: left;
-    padding-right: 10%;
-    &__row1{
-
-    }
-    &__row2{
-
-    }
-  }
-
-  //Column on the right
-  &__column2{
-    max-width: 35%;
-
-    //Set them to absolute
-    &__dots{
-      //Has to go behind the next row
-      z-index: 1;
-      top: 0;
-      right: 15%;
-      position: absolute;
-    }
-
-    &__row1{
-      //On top of the previous dot row
-      max-width: 25%;
-      z-index: 2;
-      top: 14%;
-      position: absolute;
-    }
-    &__row2{
-      max-width: 25%;
-      top: 78%;
-      position: absolute;
-    }
-    &__button{
-      top: 180%;
-      right: 33%;
-      position: absolute;
-      color: $color-black;
-      border: 2px solid black (!important);
-    }
-  }*/ }
+  padding-top: 200px; }
   .faqs .faq_item {
     max-width: 396px;
     display: inline-block;
@@ -699,6 +694,9 @@ button {
     top: 0;
     right: 15%;
     position: absolute; }
+
+#people {
+  padding-bottom: 288px; }
 
 .kenji_link {
   text-decoration: none; }
@@ -721,6 +719,9 @@ button {
 
 .team_img {
   width: 66vw;
-  height: 25vw; }
+  height: 25vw;
+  overflow: hidden; }
+  .team_img img {
+    width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
