@@ -6,7 +6,13 @@
   <title>WADAIKO</title>
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="shortcut icon" href="favicon.ico" />
+  <script type="text/javascript" src="../js/onload.js"></script>
   <script type="text/javascript" src="../js/map.js"></script>
+  <script type="text/javascript" src="../js/timeline.js"></script>
+
+  <script type="text/javascript">
+  	window.onload = init;
+  </script>
 </head>
 <body>
 	<nav>
@@ -270,18 +276,16 @@
 				<span></span><span></span><span></span>
 			</div>
 
-			<div class="button-row">
+			<div class="timeline_buttons">
 				<button class="selected">2015</button>
 				<button>2016</button>
 				<button>2017</button>
 			</div>
 		</div>
 
-		<div class="timeline">
-			<script type="text/javascript">generateTimeline();</script>
-			<div class="timeline_item">
-				<h5>date, 2016</h5>
-				<h4>Title</h4>
+		<div class="timeline_wrapper">
+			<div class="timeline">
+				<script type="text/javascript">generateTimeline();</script>
 			</div>
 		</div>
 

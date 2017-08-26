@@ -136,6 +136,7 @@ button {
   background: transparent;
   border: 2px solid white;
   border-radius: 100px;
+  outline: none;
   padding: 0vw 1.5vw;
   color: #FFFFFF;
   font-family: "Bebas Neue", sans-serif;
@@ -391,7 +392,8 @@ nav {
 
 /* Positioning */
 .header {
-  height: 536px;
+  height: 95vh;
+  min-height: 536px;
   box-sizing: border-box; }
 
 #header-background {
@@ -569,11 +571,26 @@ nav {
 .right_aligned_heading {
   margin-left: 55vw; }
 
-.timeline_item {
+.timeline, .timeline_wrapper {
   height: 436px;
-  width: 400px;
-  background-image: url("../images/pastConcert.jpg");
-  background-size: cover; }
+  width: 2000px;
+  overflow-y: hidden; }
+
+.timeline_item {
+  float: left;
+  vertical-align: top;
+  height: 436px;
+  width: 333px;
+  /*background-image: url("../images/pastConcert.jpg");*/
+  background-size: cover;
+  border: solid 1px #0F0F0F; }
+  .timeline_item .item_text {
+    display: inline-block;
+    text-align: left;
+    margin: 112px 44px; }
+  .timeline_item .date {
+    font-family: 'Lato Bold';
+    margin-bottom: 20px; }
 
 button {
   background: transparent;
@@ -588,7 +605,7 @@ button {
 
 .timeline-heading {
   position: relative; }
-  .timeline-heading .button-row {
+  .timeline-heading .timeline_buttons {
     position: absolute;
     right: 10vw;
     top: 0; }
