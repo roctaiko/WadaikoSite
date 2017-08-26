@@ -655,11 +655,13 @@ button {
   color: #FFFFFF;
   padding: 1rem;
   background-color: #0F0F0F;
-  z-index: 10; }
+  z-index: 10;
+  position: relative; }
   .footer__copyright {
     /*float: left;*/
     padding-left: 40px;
-    display: inline-block; }
+    display: inline-block;
+    font: 20px 'Bebas Neue'; }
   .footer__tribute {
     padding-left: 25%;
     display: inline-block;

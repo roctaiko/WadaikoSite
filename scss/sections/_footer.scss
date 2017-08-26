@@ -3,11 +3,13 @@
   padding: 1rem;
   background-color: $color-black;
   z-index: 10;
+  position: relative;
 
   &__copyright{
     /*float: left;*/
     padding-left:40px;
     display: inline-block;
+    font: 20px 'Bebas Neue';
   }
   &__tribute{
     padding-left:25%;
