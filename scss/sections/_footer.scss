@@ -2,11 +2,25 @@
   color: $color-white;
   padding: 1rem;
   background-color: $color-black;
-
   z-index: 10;
 
   &__copyright{
     /*float: left;*/
     padding-left:40px;
+    display: inline-block;
+  }
+  &__tribute{
+    padding-left:25%;
+    display: inline-block;
+    text-align: center;
+    p{
+      font-size: 12px;
+    }
+  }
+  &__socials{
+    float: right;
+    padding-right: 40px;
+    display: inline-block;
+
   }
 }
