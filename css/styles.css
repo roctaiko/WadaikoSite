@@ -293,6 +293,13 @@ nav {
   max-height: 248px;
   max-width: 248px; }
 
+.facebook-feed, .social-media-column {
+  display: inline-block;
+  padding: 1vw 0.5vw; }
+
+.instagram-feed {
+  margin-bottom: 2vw; }
+
 /* Modal Styling */
 .modal {
   width: 934px;
