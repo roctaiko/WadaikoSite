@@ -619,12 +619,6 @@ button {
 
 .footer {
   color: #FFFFFF;
-  /*position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  */
   padding: 1rem;
   background-color: #0F0F0F; }
   .footer__copyright {
@@ -634,56 +628,7 @@ button {
 .faqs {
   background-color: #FFFFFF;
   position: relative;
-  padding-top: 200px;
-  /*&__button{
-    color: $color-black;
-    border: 2px solid black (!important);
-  }*/
-  /*&__column1{
-    max-width: 31%;
-    float: left;
-    padding-right: 10%;
-    &__row1{
-
-    }
-    &__row2{
-
-    }
-  }
-
-  //Column on the right
-  &__column2{
-    max-width: 35%;
-
-    //Set them to absolute
-    &__dots{
-      //Has to go behind the next row
-      z-index: 1;
-      top: 0;
-      right: 15%;
-      position: absolute;
-    }
-
-    &__row1{
-      //On top of the previous dot row
-      max-width: 25%;
-      z-index: 2;
-      top: 14%;
-      position: absolute;
-    }
-    &__row2{
-      max-width: 25%;
-      top: 78%;
-      position: absolute;
-    }
-    &__button{
-      top: 180%;
-      right: 33%;
-      position: absolute;
-      color: $color-black;
-      border: 2px solid black (!important);
-    }
-  }*/ }
+  padding-top: 200px; }
   .faqs .faq_item {
     max-width: 396px;
     display: inline-block;
