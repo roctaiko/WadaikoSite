@@ -1,5 +1,6 @@
-.merchandise{
+#merchandise{
 	padding-top: 224px;
+	padding-bottom: 288px;
 }
 
 /* Currently Visible Section of Merch */
@@ -18,6 +19,11 @@
 			line-height: 1.75vw;
 		}
 	}
+}
+
+.price{
+	font-family: 'Lato Bold';
+	margin-top: 20px;
 }
 
 
