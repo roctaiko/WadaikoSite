@@ -30,6 +30,7 @@ function initMap() {
   });
 
 
+/*
   // Marker Two: Auxiliary Gym
   var contentString2 = "<h2>Auxiliary Gym</h2>";
   var infowindow2 = new google.maps.InfoWindow({
@@ -46,7 +47,7 @@ function initMap() {
   marker2.addListener('click', function() {
     infowindow2.open(map, marker2);
   });
-
+*/
 
   // Marker Three: Ingle Auditorium
   var contentString3 = "<h2>Ingle Auditorium</h2>";
